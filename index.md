@@ -36,10 +36,9 @@ Now, the moment you've all been waiting for... The award of the 2019 most quoted
 It was quoted 727 times. Same quote. 727 different news media articles. Take that !
 <br>
 
-### Sentiment and complexity
-Wait. Let us take a step back. Where does gender stand in the whole climate change debate ? What is the global sentiment of the speakers, are they generally positive 😃 or rather negative 😞 ? How complex is the language ? Uttermost brilliance 🧐 or easier to understand words 🤩 ?
-
 # Greta sailing over the big pond
+On 14th August 2019, Greta left Plymouth on a boat in a trip to New York that lasted 15 days. Could you imagine that ? 15 days on the sea on a small boat ? That takes quite the courage ! 😱
+She did this, so that she could reach the US to attend the 2019 UN Climate Action Summit and remain carbon neutral. Quite the project, huh ?
 
 # Natural disaster
 
