@@ -1,6 +1,20 @@
 # Is the Greta effect fake news?
 
+- debate on climate change
+- why are we focusing on climate change
+- explain the greta effect
+- what is before and after greta
+- questions we're trying to answer: who is being quoted on climate change? what do they have in common? how are they saying what they are saying? 
+- What was greta's impact? 
 
+
+# Let's follow Greta Thunberg over the years
+
+## The start of Greta in 2018
+
+# Greta sailing over the ig pond
+
+# Natural disaster
 
 
 ## Welcome to GitHub Pages
