@@ -24,7 +24,7 @@ Even though we see a peak at 21 years old, after some background checking, we've
 
 ### She was quoted a lot, like a loooooot. But how much is that ?
 Greta first appeared in the media around september 2018 and the number of times she was quoted ever since is simply mindblowing. Started from the bottom in 2018 and in 2019 she was in the top 10 most quoted speakers of the year. 
-# <p style="text-align: center;">🤯</p>
+# 🤯 Boom
 This simply shows how much of an issue climate change is and how her approach changed debate. Like it literally changed everything. 
 
 # Greta sailing over the big pond
