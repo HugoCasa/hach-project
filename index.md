@@ -39,6 +39,8 @@ It was quoted 727 times. Same quote. 727 different news media articles. Take tha
 # Greta sailing over the big pond
 On 14th August 2019, Greta left Plymouth on a boat in a trip to New York that lasted 15 days. Could you imagine that ? 15 days on the sea on a small boat ? That takes quite the courage ! 😱
 She did this, so that she could reach the US to attend the 2019 UN Climate Action Summit and remain carbon neutral. Quite the project, huh ?
+This leads us to our next talking point : the United States of America. 🇺🇸
+Did Greta make America great again ?
 
 # Natural disaster
 
