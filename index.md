@@ -29,7 +29,7 @@ Even though we see a peak at 21 years old, after some background checking, we've
 Greta first appeared in the media around september 2018 and the number of times she was quoted ever since is simply mindblowing. Started from the bottom in 2018 and in 2019 she was in the top 10 most quoted speakers of the year. <br>
 This simply shows how much of an issue climate change is and how her approach changed debate. Like it literally changed everything. 🤯 **Boom** there you go ! <br>
 Now, the moment you've all been waiting for... The award of the 2019 most quoted quote (some many "q's" 🦆 quack). And it goes tooooo :
-> *If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken.* Greta Thunberg
+> *School strike for the Climate.* Greta Thunberg
 
 # Greta sailing over the big pond
 
