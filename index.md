@@ -37,10 +37,18 @@ It was quoted 727 times. Same quote. 727 different news media articles. Take tha
 <br>
 
 ### Sentiment and complexity
-Wait. Let us take a step back. Where does gender stand in the 
+Wait. Let us take a step back. Where does gender stand in the whole climate change debate ?
 
 # Greta sailing over the big pond
 
 # Natural disaster
 
 # Testing plots
+
+p.s. : Climate change was quote 57 times in this article
+<br>
+<br>
+p.p.s : You checked the number, didn't you ? I know, we lied, it was only 56 times...
+<br>
+<br>
+p.p.p.s : Thank you for reading !
