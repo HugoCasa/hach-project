@@ -21,7 +21,7 @@ We can only observe a small increase in the percentage of women speakers through
 
 {% include plots/age_plot.html %}
 
-Unfortunately, in 2018 it is... The sample of population speaking about climate change in 2018 is rather old with a mean age of 56 years. The fact that Greta, 16 years old, starts speaking about it, is a game changer, as she stands out from the typical population in this context. We could wonder whether the movement is only aimed at old policy makers, or also at younger generations who will be the future policy makers and could therefore perdure the change.
+Unfortunately, until now it has been the case... The sample of population speaking about climate change in 2018 is rather old with a mean age of 56 years. The fact that Greta, 16 years old, starts speaking about it, is a game changer, as she stands out from the typical population in this context. We could wonder whether the movement is only aimed at old policy makers, or also at younger generations who will be the future policy makers and could therefore perdure the change.
 Even though we see a peak at 21 years old, after some background checking, we've come to realise some inconsitencies in the wikidata and noticed that anyone older than 21, for whom we did not have age information, were given the 21 years old label. 
 
 ### She was quoted a lot, like a loooooot. But how much is that ?
