@@ -8,7 +8,7 @@ We will show how the debate was dominated by certain groups of people over the y
 
 > *Speaker announcement : "Ladies and gentleman, welcome on board of the Gretaboat with destination to better world...*
 
-# Let us embark on the Gretadventure
+# Let us embark on the Gretadaventure
 First things firts : context !
 ### Female... Male... Where does she stand in the debate ?
 What's quite interesting about Greta Thunberg is that she isn't the typcal public speaker profile. She's young and not a male. To support our claim, we decided to explore gender diversity and age distribution in the quotes concerning climate change and how these two variables evolved with time.
