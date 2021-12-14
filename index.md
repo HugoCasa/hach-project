@@ -37,7 +37,7 @@ It was quoted 727 times. Same quote. 727 different news media articles. Take tha
 <br>
 
 ### Sentiment and complexity
-Wait. Let us take a step back. Where does gender stand in the whole climate change debate ?
+Wait. Let us take a step back. Where does gender stand in the whole climate change debate ? What is the global sentiment of the speakers, are they generally positive 😃 or rather negative 😞 ? How complex is the language ? Uttermost brilliance 🧐 or easier to understand words 🤩 ?
 
 # Greta sailing over the big pond
 
