@@ -15,11 +15,11 @@ We will show how the debate was dominated by certain groups of people over the y
 
 # Let's follow Greta Thunberg over the years
 
-What's quite interesting about Greta Thunberg is that she isn't the typcal public speaker profile. To illustrate this, we have explored gender diversity and age distribution in the quotes concerning climate change over the years.
+What's quite interesting about Greta Thunberg is that she isn't the typcal public speaker profile. She's young and not a male. To support our claim, we decided to explore gender diversity and age distribution in the quotes concerning climate change and how these two variables evolved with time.
 
-![Gender plot](/_includes/plots/gender.png)
+![Gender plot](/assets/plots/gender.png)
 
-We only see a small increase in the percentage of women speakers throughout the years. But it basically stays around 20% which is far from being representative of the population. Note: other genders were also in the dataset but were insignificant and are therefore not visible on the graphs which shows again underrepresentation of those groups of people in the quoted speakers.  
+We can only observe a small increase in the percentage of women speakers throughout the years. Their quantity remains roughly around 20% which is far from being representative of the population. Other genders were also present in the dataset but their numbers were irrelevant compared to the two dominating categories and were therefore not visible on the graphs which shows again underrepresentation of those groups of people in the quoted speakers.  
 
 {% include plots/age_plot.html %}
 
