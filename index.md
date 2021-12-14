@@ -31,6 +31,8 @@ This simply shows how much of an issue climate change is and how her approach ch
 Now, the moment you've all been waiting for... The award of the 2019 most quoted quote (some many "q's" 🦆 quack). And it goes tooooo :
 > *School strike for the Climate.* Greta Thunberg
 
+{% include plots/top_speakers.html %}
+
 # Greta sailing over the big pond
 
 # Natural disaster
