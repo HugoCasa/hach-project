@@ -46,6 +46,8 @@ So, did Greta make America great again ? 🇺🇸
 ### Hello there old friend
 Remember where we are (small hint : 🇺🇸) and where we came from (another hint : 🇪🇺). How do the two old friends compare ?
 
+# After this, everything is a work in progress (in artist language we say WIP)
+
 {% include plots/europe_us_complexity.html %}
 {% include plots/europe_us_sentiment.html %}
 
