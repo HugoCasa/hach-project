@@ -4,15 +4,15 @@
 - why are we focusing on climate change
 - explain the greta effect
 - what is before and after greta
-- questions we're trying to answer: who is being quoted on climate change? what do they have in common? how are they saying what they are saying? 
-- What was greta's impact? 
-- 
+- questions we're trying to answer: who is being quoted on climate change? what do they have in common? how are they saying what they are saying?
+- What was greta's impact?
+-
+
 ## 'If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken.'
 
-For years now climate change has been one of the dominating topics in public debate. 
-Since 2018 the "Friday for Future" movement has taken to the streets in an attempt to be heard by policy makers, led by a young woman from Sweden with a cardboard board. 
-We will show how the debate was dominated by certain groups of people over the years, how they have been speaking about climate change and what has changed since Greta Thunberg arrived on the stage. 
-
+For years now climate change has been one of the dominating topics in public debate.
+Since 2018 the "Friday for Future" movement has taken to the streets in an attempt to be heard by policy makers, led by a young woman from Sweden with a cardboard board.
+We will show how the debate was dominated by certain groups of people over the years, how they have been speaking about climate change and what has changed since Greta Thunberg arrived on the stage.
 
 # Let's follow Greta Thunberg over the years
 
@@ -22,6 +22,9 @@ We will show how the debate was dominated by certain groups of people over the y
 
 # Natural disaster
 
+# Testing plots
+
+{% include plots/damages.html %}
 
 ## Welcome to GitHub Pages
 
@@ -37,7 +40,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
 ## Header 2
+
 ### Header 3
 
 - Bulleted
