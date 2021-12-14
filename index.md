@@ -23,7 +23,8 @@ The sample of population speaking about climate change is rather old with a mean
 Even though we see a peak at 21 years old, after some background checking, we've come to realise some inconsitencies in the wikidata and noticed that anyone older than 21, for whom we did not have age information, were given the 21 years old label.
 
 ### She was quoted a lot, like a loooooot. But how much is that ?
-Greta first appeared in the media around september 2018 and the number of times she was quoted ever since is simply mindblowing. Started from the bottom in 2018 and in 2019 she was in the top 10 most quoted speakers of the year. 🤯 <br>
+Greta first appeared in the media around september 2018 and the number of times she was quoted ever since is simply mindblowing. Started from the bottom in 2018 and in 2019 she was in the top 10 most quoted speakers of the year. 
+# 🤯
 This simply shows how much of an issue climate change is and how her approach changed debate. Like it literally changed everything. 
 
 # Greta sailing over the big pond
