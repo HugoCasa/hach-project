@@ -24,8 +24,6 @@ We will show how the debate was dominated by certain groups of people over the y
 
 # Testing plots
 
-{% include plots/damages.html %}
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/HugoCasa/hach-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
