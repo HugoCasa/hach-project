@@ -6,9 +6,10 @@ Since 2018 the "Friday for Future" movement has taken to the streets in an attem
 
 We will show how the debate was dominated by certain groups of people over the years, how they have been speaking about climate change and what has changed since Greta Thunberg arrived on the stage. In order to quantify the changes, sentiment analysis and language complexity analyis was performed on quotes on climate change from the Quotebank dataset. We will analyze the two years before Greta took off as a person of public interest and the two years after. As she started protesting in Sweden in August of 2018, but newspapers really started paying attention to her in early 2019, we define 2017-2018 as the years before Greta (b.G.) and 2019-2020 are considered after Greta (a.G.). 
 
-# Let's follow Greta Thunberg over the years
-## The start of Greta in 2018
-### How about gender ?
+> *Speaker announcement : "Ladies and gentleman, welcome on board of the Gretaboat with destination to better world...*
+# Let us embark on the Gretadventure
+First things firts : context !
+### Female... Male... What's
 What's quite interesting about Greta Thunberg is that she isn't the typcal public speaker profile. She's young and not a male. To support our claim, we decided to explore gender diversity and age distribution in the quotes concerning climate change and how these two variables evolved with time.
 
 ![Gender plot](/assets/plots/gender.png)
