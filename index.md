@@ -21,7 +21,7 @@ What's quite interesting about Greta Thunberg is that she isn't the typcal publi
 
 We only see a small increase in the percentage of women speakers throughout the years. But it basically stays around 20% which is far from being representative of the population. Note: other genders were also in the dataset but were insignificant and are therefore not visible on the graphs which shows again underrepresentation of those groups of people in the quoted speakers.  
 
-{% include plots/age_plot.html}
+{% include plots/age_plot.html %}
 
 As can be seen from the graph, the sample of population speaking about climate change is rather old with a mean age of 56 years. The fact that Greta, 16 years old, speaks about it, is a game changer, as she stands out from the typical population in this context. We could wonder whether the movement is only aimed at old policy makers, or also at younger generations who will be the future policy makers and could therefore perdure the change.
 Even though we see a peak at 21 years old, after some background checking, we've come to realise some inconsitencies in the wikidata and noticed that anyone older than 21, for whom we did not have age information were given the 21 label.
