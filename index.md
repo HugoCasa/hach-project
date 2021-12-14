@@ -26,13 +26,29 @@ Even though we see a peak at 21 years old, after some background checking, we've
 
 {% include plots/greta_quoted.html %}
 
-Greta first appeared in the media around september 2018 and the number of times she was quoted ever since is simply mindblowing. Started from the bottom in 2018 and in 2019 she was in the top 10 most quoted speakers of the year. <br>
+Greta first appeared in the media around september 2018 and the number of times she was quoted ever since is simply mindblowing. Started from the bottom in 2018 and in 2019 she was not only in the top 10 most quoted speakers of year in the climate change category, but she was number one. (This was a long sentence, sorry for that.) <br>
+{% include plots/top_speakers.html %}
+<br>
 This simply shows how much of an issue climate change is and how her approach changed debate. Like it literally changed everything. 🤯 **Boom** there you go ! <br>
 Now, the moment you've all been waiting for... The award of the 2019 most quoted quote (some many "q's" 🦆 quack). And it goes tooooo :
 > *School strike for the Climate.* Greta Thunberg
+
+It was quoted 727 times. Same quote. 727 different news media articles. Take that !
+<br>
+
+### Sentiment and complexity
+Wait. Let us take a step back. Where does gender stand in the whole climate change debate ?
 
 # Greta sailing over the big pond
 
 # Natural disaster
 
 # Testing plots
+
+p.s. : Climate change was quote 57 times in this article
+<br>
+<br>
+p.p.s : You checked the number, didn't you ? I know, we lied, it was only 56 times...
+<br>
+<br>
+p.p.p.s : Thank you for reading !
