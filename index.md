@@ -46,10 +46,18 @@ So, did Greta make America great again ? 🇺🇸
 ### Hello there old friend
 Remember where we are (small hint : 🇺🇸) and where we came from (another hint : 🇪🇺). How do the two old friends compare ?
 
-# After this, everything is a work in progress (in artist language we say WIP)
-
 {% include plots/europe_us_complexity.html %}
 {% include plots/europe_us_sentiment.html %}
+
+Clearly, we, Europeans (yey 🥳) find ourselves better ranked in terms of complexity of language as well as in terms of mean sentiment. This could have many explanations, such as a difference in the average level of education, but we have found something interesting that could also have its impact : average quote length. Indeed, US quotes tend to be shorter and some positive correlation can be oserved between the complexity of quotes and their length.
+
+{% include plots/europe_us_quote_length.html %}
+
+
+
+# After this, everything is a work in progress (in artist language we say WIP)
+
+
 
 # Natural disaster
 
