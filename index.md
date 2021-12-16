@@ -44,22 +44,31 @@ She did this, so that she could reach the US to attend the 2019 UN Climate Actio
 So, did Greta make America great again ? 🇺🇸
 
 ### Hello there old friend
-Remember where we are (small hint : 🇺🇸) and where we came from (another hint : 🇪🇺). How do the two old friends compare ?
+Remember where we are (small hint : 🇺🇸) and where we came from (another hint : 🇪🇺). How do the two old friends compare in the climate change topic ?
 
 {% include plots/europe_us_complexity.html %}
 {% include plots/europe_us_sentiment.html %}
 
-Clearly, we, Europeans (yey 🥳) find ourselves better ranked in terms of complexity of language as well as in terms of mean sentiment. This could have many explanations, such as a difference in the average level of education, but we have found something interesting that could also have its impact : average quote length. Indeed, US quotes tend to be shorter and some positive correlation can be oserved between the complexity of quotes and their length.
+Clearly, we, Europeans (yey 🥳) find ourselves better ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change. This could have many explanations, such as a difference in the average level of education, but we have found something interesting that could also have its impact : average quote length. Indeed, US quotes tend to be shorter and some positive correlation can be oserved between the complexity of quotes and their length.
 
 {% include plots/europe_us_quote_length.html %}
 
 Does this mean we can say Europeans are smarter ? 😃 Let us not jump into conclusions, but let us secretly believe in that. For now.
 
 ### The war of the home parties
-Sorry to bring to you this way, but it is no breaking news the two main parties in the US (Democrats and Republicans) are two political opposites fighting against each other. It has been this way for ages and we are still far from a change. Enough blah blah, a picture is worth a thousand words, how do they reaaally compare ?
+Sorry to bring to you this way, but it is no breaking news the two main parties in the US (Democrats and Republicans) are two political opposites fighting against each other. It has been this way for ages and we are still far from a change. Enough blah blah, a picture is worth a thousand words, how do they reaaally compare when it comes down to climate change ?
 
 {% include plots/republican_democratic_sentiment.html %}
 
+The mean sentiment linked to the Democrats is on average higher than the one linked to the Republicans. We cannot say we are surprised, as climate change was not really a top priority of Donald Trump's program since 2017. As we all remember, he withdrew from the Paris climate accord on 1st June 2017, we believe that made it quite clear. 😞
+
+### This one looks like a boxing match final round : Greta vs Trump
+Now that we have some context, we can finally reach the pinnacle of comparisons, i.e. the most opposite political figures, i.e. the MVPs. Ladies and gentlemen, please welcome Greta Thunberg and Donald Trump :
+
+{% include plots/greta_trump_complexity.html %}
+{% include plots/greta_trump_sentiment.html %}
+
+These results came as a bit of a surprise for us. First : language complexity on climate change topics. Even though the republicans seem to have a lower language complexity score, Trump seems to be higher on that scale (still lower than Europe though, don't worry). The fact that Greta's language complexity comes at a lower rank could come down to the fact that english is not her mother tongue (which is not the case for Trump) and simply a matter of age. So far, so good, no big statements made. These results become interesting, when we look at the sentiment score. Greta starts off great (no puns intended, we swear) in 2018 and endures a severe fall in only a few months to join Trump's levels and remain there until 2020. This phenomena could be due to the fact that Greta appeared as a light in a dim world, by bringing to the table the topic of climate change. We believe the sentiment linked to her quotes dropped because of the fact that she quickly started bringing forward the consequences of climate change and to insist on how hopeless she was for the future. So, how could you link a positive sentiment with hopeless thoughts you wonder ? Well, clearly it is impossible. 🤷🏻
 
 # After this, everything is a work in progress (in artist language we say WIP)
 
