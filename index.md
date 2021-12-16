@@ -3,9 +3,11 @@
 
 For years now climate change has been one of the dominating topics in public debate.
 Since 2018 the "Friday for Future" movement has taken to the streets in an attempt to be heard by policy makers, led by a young woman from Sweden with a cardboard board.
-
+<br>
 We will show how the debate was dominated by certain groups of people over the years, how they have been speaking about climate change and what has changed since Greta Thunberg arrived on the stage. 
+<br>
 In order to quantify the changes, sentiment analysis and language complexity analyis was performed on quotes on climate change from the Quotebank dataset. 
+<br>
 We will analyze the two years before Greta took off as a person of public interest and the two years after. As she started protesting in Sweden in August of 2018, but newspapers really started paying attention to her in early 2019, we define 2017-2018 as the years before Greta (b.G.) and 2019-2020 are considered after Greta (a.G.). 
 
 > *Speaker announcement : "Ladies and gentleman, welcome on board of the Gretaboat with destination to better world...*
@@ -13,56 +15,69 @@ We will analyze the two years before Greta took off as a person of public intere
 # Let us embark on the Gretadaventure
 Let's start with some context on the debate before like who was being quoted on climate change in the years b.G and if anything has changed with Greta? 
 
-### Female... Male... Where does she stand in the debate ?
-We found, that Greta doesn't belong to the typical speaker quoted on climate in the Quotebank dataset. 
-What's quite interesting about Greta Thunberg is that she isn't the typcal public speaker profile. She's young and not a male. To support our claim, we decided to explore gender diversity and age distribution in the quotes concerning climate change and how these two variables evolved with time.
+### Who is speaking about climate change?
+We found that Greta doesn't belong to the typical speaker quoted on climate in the Quotebank dataset. She's a young woman, not a politician and from a country with a rather small population in Europe. 
+<br>
+Let start by taking a look at the distribution of the gender of the quoted speakers over the years. 
 
 {% include plots/gender_piecharts.html %}
 
-We can only observe a small increase in the percentage of women speakers throughout the years. Their quantity remains roughly around 20% which is far from being representative of the population. Other genders were also present in the dataset but their numbers were irrelevant compared to the two dominating categories and were therefore not visible on the graphs which shows again underrepresentation of those groups of people in the quoted speakers.  
+We can only observe a small increase in the percentage of women quoted throughout the years. It remains at roughly 20% which is far from being representative of the population. Other genders were also present in the dataset but their numbers were irrelevant compared to the two dominating categories and were therefore not visible on the graphs which shows again underrepresentation of some groups of people in the quoted speakers.  
 
-### All right, all right, all right, are you going to tell me climate change is a matter of the old now ? 😒
+### A topic for old white men? 👨‍🦳
 
 {% include plots/age_plot.html %}
 
-Unfortunately, until now it has been the case... The sample of population speaking about climate change in 2018 is rather old with a mean age of 56 years. The fact that Greta, 16 years old, starts speaking about it, is a game changer, as she stands out from the typical population in this context. We could wonder whether the movement is only aimed at old policy makers, or also at younger generations who will be the future policy makers and could therefore perdure the change.
-Even though we see a peak at 21 years old, after some background checking, we've come to realise some inconsitencies in the wikidata and noticed that anyone older than 21, for whom we did not have age information, were given the 21 years old label. 
+Ah, we see here that indeed the majority of speakers tend to be older rather than younger... 
+<br>
+The sample of population speaking about climate change in 2018 is rather old with a mean age of 56 years. The majority of speakers in the dataset are politicians and it's biased towards english speaking news, so this doesn't come as a big surprise.
+<br>
+The fact that Greta, 16 years old, is being quoted about climate change is a game changer, as she stands out from the typical population in this context.
+We wonder if this change will persist, or if she is just an exception that proves the rule. 
+<br>
+After some background checking, we found that due to some inconsistencies in the wikidata every speaker without any entry for age is attributed an age of 21 years. This explains the peak of 21 year olds being quoted on climate change.
 
-### She was quoted a lot, like a loooooot. But how much is that ?
+### How many times is Greta actually quoted ?
 
 {% include plots/greta_quoted.html %}
 
-Greta first appeared in the media around september 2018 and the number of times she was quoted ever since is simply mindblowing. Started from the bottom in 2018 and in 2019 she was not only in the top 10 most quoted speakers of year in the climate change category, but she was number one. (This was a long sentence, sorry for that.) <br>
+Greta first appeared in the media around september 2018 and the number of times she was quoted ever since is simply mindblowing. Starting from the bottom in 2018, by 2019 she was not only in the top 10 most quoted speakers of year in the climate change category, but she was number one.  <br>
 {% include plots/top_speakers.html %}
 <br>
-This simply shows how much of an issue climate change is and how her approach changed debate. Like it literally changed everything. 🤯 **Boom** there you go ! <br>
-Now, the moment you've all been waiting for... The award of the 2019 most quoted quote (some many "q's" 🦆 quack). And it goes tooooo :
+This shows that she must have had an impact on the debate. Everyone was starting to quote the young swedish woman. She even overtook Donald Trump. 😳
+<br>
+Now, the moment we've all been waiting for... The award of the 2019 most quoted quote goes too :
 > *School strike for the Climate.* Greta Thunberg
 
-It was quoted 727 times. Same quote. 727 different news media articles. Take that !
+It was quoted 727 times. Same quote. 727 different news media articles. That's a lot!
 <br>
 
 # Greta sailing over the big pond
-On 14th August 2019, Greta left Plymouth on a boat in a trip to New York that lasted 15 days. Could you imagine that ? 15 days on the sea on a small boat ? That takes quite the courage ! 😱
-She did this, so that she could reach the US to attend the 2019 UN Climate Action Summit and remain carbon neutral. Quite the project, huh ?
-So, did Greta make America great again ? 🇺🇸
+On 14th August 2019, Greta left Plymouth on a boat in a trip to New York that lasted 15 days. Could you imagine that? 15 days on the sea on a small boat? That takes quite the courage! 😱
+<br>
+She did this, so that she could reach the US to attend the 2019 UN Climate Action Summit and remain carbon neutral. Quite the project, right?
+What did she find when she sailed across? 
 
-### Hello there old friend
-Remember where we are (small hint : 🇺🇸) and where we came from (another hint : 🇪🇺). How do the two old friends compare in the climate change topic ?
+### A warm welcome
+
+Greta has now reached the USA, but how do the US and Europe compare when it comes to public debate about climate change? 
+<br>
+In order to find out about the differences we analyzed the quotes over the two years b.G and a.G. and compared the US to Europe. 
 
 {% include plots/europe_us_complexity.html %}
 
 The complexity of the scores were generated using the textstat library using the standard text scorer. A score of e.g. 9 means that the quote can be read and understood by an average 9th grader. 
+<br>
 To demonstrate the scorer, let's take a look at a random quote from the US and from Europe.
 > *'Understanding and predicting future changes in tropical rainfall patterns is one of the greatest and most important challenges facing climate science today'* John Marshall, complexity: 15.0
 
-This quote scored 15.0 in terms of complexity.
 Let's see what the US have to say: 
 
 > *'We have these questions about climate change but we have no direction yet on what we should in fact say. So, we wrote very wishy-washy answers and they got submitted to Secretary Mattis's team. And they came back to us and said, `These are too weak. Secretary Mattis believes in climate change and the risk to national security.'* Maureen Sullivan, complexity: 8.0
 
-One can already see the difference, but what do language analysis libraries have to say about this quote? 
-It scores 8 in terms of complexity, which means it can be understood by an eigth grader. 
+Reading them one can already guess that the second quote from the US scores lower, but why is that? 
+<br>
+It cannot be due to the length of the quote, as it is much longer and still scores lower than the first. Since the scorer we used for the analysis is based on multiple functions
 
 And what about the sentiment on climate change? Might there be a difference how the US and Europe feel and speak about this topic?
 
@@ -92,8 +107,8 @@ The mean sentiment linked to the Democrats is on average higher than the one lin
 ### This one looks like a boxing match final round : Greta vs Trump
 Now that we have some context, we can finally reach the pinnacle of comparisons, i.e. the most opposite political figures, i.e. the MVPs. Ladies and gentlemen, please welcome Greta Thunberg and Donald Trump :
 
-{% include plots/greta_trump_complexity.html %}
-{% include plots/greta_trump_sentiment.html %}
+<div style="margin-right: 50%; transform: translateX(-50%);">{% include plots/greta_vs_trump.html %}</div>
+
 
 These results came as a bit of a surprise for us. First : language complexity on climate change topics. Even though the republicans seem to have a lower language complexity score, Trump seems to be higher on that scale (still lower than Europe though, don't worry). The fact that Greta's language complexity comes at a lower rank could come down to the fact that english is not her mother tongue (which is not the case for Trump) and simply a matter of age. So far, so good, no big statements made. These results become interesting, when we look at the sentiment score. Greta starts off great (no puns intended, we swear) in 2018 and endures a severe fall in only a few months to join Trump's levels and remain there until 2020. This phenomena could be due to the fact that Greta appeared as a light in a dim world, by bringing to the table the topic of climate change. We believe the sentiment linked to her quotes dropped because of the fact that she quickly started bringing forward the consequences of climate change and to insist on how hopeless she was for the future. So, how could you link a positive sentiment with hopeless thoughts you wonder ? Well, clearly it is impossible. 🤷🏻
 
@@ -110,7 +125,7 @@ This way we can show how many quotes there were on climate change but also how h
 
 {% include plots/events_damages_sentiment.html %}
 
-It seems like natural disasters have an impact on the climate change debate. This doesn't come as great (greta) surprise, but hoch much the curve of sum of sentiment scores follows the damage to property is still impressive. 
+It seems like natural disasters have an impact on the climate change debate. This doesn't come as a great (greta) surprise, but how much the curve of sum of sentiment scores follows the damage to property is still impressive. 
 The first peak in damage to property was the tropical storm Imelda, whereas the second even higher peak in November 2019 was thunderstorms in Texas causing a lot of damage. 
 
 We believe that these natural disasters cause the public debate about climate change to heat up again. Politicians, who are the most quoted group in the dataset, are quoted on this subject a lot when an extreme weather event has happened. But why would the sentiment score sum give us any indication about the public debate?
