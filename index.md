@@ -60,6 +60,14 @@ Sorry to bring to you this way, but it is no breaking news the two main parties 
 
 {% include plots/republican_democratic_sentiment.html %}
 
+The mean sentiment linked to the Democrats is on average higher than the one linked to the Republicans. 
+
+### This one looks like a boxing match final round : Greta vs Trump
+Now that we have some context, we can finally reach the pinnacle of comparisons, i.e. the most opposite political figures, i.e. the MVPs. Ladies and gentlemen, please welcome Greta Thunberg and Donald Trump :
+
+{% include plots/republican_democratic_sentiment.html %}
+
+We can safely make the statement that these results do not come as a surprise.
 
 # After this, everything is a work in progress (in artist language we say WIP)
 
