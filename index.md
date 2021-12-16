@@ -1,16 +1,20 @@
 # Is the Greta effect fake news?
-> *If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken.* Greta Thunberg
+> *'If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken.'* Greta Thunberg
 
 For years now climate change has been one of the dominating topics in public debate.
 Since 2018 the "Friday for Future" movement has taken to the streets in an attempt to be heard by policy makers, led by a young woman from Sweden with a cardboard board.
 
-We will show how the debate was dominated by certain groups of people over the years, how they have been speaking about climate change and what has changed since Greta Thunberg arrived on the stage. In order to quantify the changes, sentiment analysis and language complexity analyis was performed on quotes on climate change from the Quotebank dataset. We will analyze the two years before Greta took off as a person of public interest and the two years after. As she started protesting in Sweden in August of 2018, but newspapers really started paying attention to her in early 2019, we define 2017-2018 as the years before Greta (b.G.) and 2019-2020 are considered after Greta (a.G.). 
+We will show how the debate was dominated by certain groups of people over the years, how they have been speaking about climate change and what has changed since Greta Thunberg arrived on the stage. 
+In order to quantify the changes, sentiment analysis and language complexity analyis was performed on quotes on climate change from the Quotebank dataset. 
+We will analyze the two years before Greta took off as a person of public interest and the two years after. As she started protesting in Sweden in August of 2018, but newspapers really started paying attention to her in early 2019, we define 2017-2018 as the years before Greta (b.G.) and 2019-2020 are considered after Greta (a.G.). 
 
 > *Speaker announcement : "Ladies and gentleman, welcome on board of the Gretaboat with destination to better world...*
 
 # Let us embark on the Gretadaventure
-First things firts : context !
+Let's start with some context on the debate before like who was being quoted on climate change in the years b.G and if anything has changed with Greta? 
+
 ### Female... Male... Where does she stand in the debate ?
+We found, that Greta doesn't belong to the typical speaker quoted on climate in the Quotebank dataset. 
 What's quite interesting about Greta Thunberg is that she isn't the typcal public speaker profile. She's young and not a male. To support our claim, we decided to explore gender diversity and age distribution in the quotes concerning climate change and how these two variables evolved with time.
 
 {% include plots/gender_piecharts.html %}
@@ -114,7 +118,9 @@ We believe that these natural disasters cause the public debate about climate ch
 Let's see how different example quotes score in terms of sentiment: 
 
 > *Climate change is real* sentiment: Positive, 0.9976
+
 > *Climate change is an urgent matter* sentiment: Positive, 0.9773
+
 > *It's time to act on climate change* sentiment: Positive, 0.9962
 
 We can see from these few example quotes that even though they convey a message of urgency, they still score quite positive. 
@@ -123,6 +129,7 @@ An example quote from October 2019 from the US shows the same thing:
 
 > *'New Jersey is extremely vulnerable to the impacts of sea-level rise and global warming, and today's executive order outlines a bold and comprehensive set of actions to ensure that our communities and infrastructure are more resilient against future storms'* Phil Murphy, sentiment score: Positive, 0.998
 
+Even though the speaker is speaking about the recent events and the urgency to act, the overall sentiment is positive. 
 
 
 
