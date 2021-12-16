@@ -51,10 +51,12 @@ Remember where we are (small hint : 🇺🇸) and where we came from (another hi
 The complexity of the scores were generated using the textstat library using the standard text scorer. A score of e.g. 9 means that the quote can be read and understood by an average 9th grader. 
 To demonstrate the scorer, let's take a look at a random quote from the US and from Europe.
 > *'Understanding and predicting future changes in tropical rainfall patterns is one of the greatest and most important challenges facing climate science today'* John Marshall
+
 This quote scored 15.0 in terms of complexity.
 Let's see what the US have to say: 
 
-< *'We have these questions about climate change but we have no direction yet on what we should in fact say. So, we wrote very wishy-washy answers and they got submitted to Secretary Mattis's team. And they came back to us and said, `These are too weak. Secretary Mattis believes in climate change and the risk to national security.' Maureen Sullivan
+> *'We have these questions about climate change but we have no direction yet on what we should in fact say. So, we wrote very wishy-washy answers and they got submitted to Secretary Mattis's team. And they came back to us and said, `These are too weak. Secretary Mattis believes in climate change and the risk to national security.' Maureen Sullivan
+
 One can already see the difference, but what do language analysis libraries have to say about this quote? 
 It scores 8 in terms of complexity, which means it can be understood by an eigth grader. 
 
