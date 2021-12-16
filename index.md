@@ -47,7 +47,18 @@ So, did Greta make America great again ? 🇺🇸
 Remember where we are (small hint : 🇺🇸) and where we came from (another hint : 🇪🇺). How do the two old friends compare in the climate change topic ?
 
 {% include plots/europe_us_complexity.html %}
+
+The complexity of the scores were generated using the textstat library using the standard text scorer. A score of e.g. 9 means that the quote can be read and understood by an average 9th grader. 
+To demonstrate the scorer, let's take a look at a random quote from the US and from Europe.
+> *'Understanding and predicting future changes in tropical rainfall patterns is one of the greatest and most important challenges facing climate science today'* John Marshall
+
+
 {% include plots/europe_us_sentiment.html %}
+
+
+- complexity score 
+- sentiment score 
+- examples random
 
 Clearly, we, Europeans (yey 🥳) find ourselves better ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change. This could have many explanations, such as a difference in the average level of education, but we have found something interesting that could also have its impact : average quote length. Indeed, US quotes tend to be shorter and some positive correlation can be oserved between the complexity of quotes and their length.
 
