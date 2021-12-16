@@ -77,7 +77,8 @@ Let's see what the US have to say:
 
 Reading them one can already guess that the second quote from the US scores lower, but why is that? 
 <br>
-It cannot be due to the length of the quote, as it is much longer and still scores lower than the first. Since the scorer we used for the analysis is based on multiple functions
+It cannot be due to the length of the quote, as it is much longer and still scores lower than the first. The scorer we used for the analysis is based on multiple functions that take into account number of words, complex words, sentences etc.
+In the second quote the  'wishy-washy answers' must be of lower complexity than for example the 'tropical rainfall patterns' from the first quote.  
 
 And what about the sentiment on climate change? Might there be a difference how the US and Europe feel and speak about this topic?
 
@@ -89,22 +90,27 @@ Let's generate another pair of random samples to see how they score sentiment wi
 
 > *'The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,'* Kimmo Tiilikainen, sentiment score: 0.8459
 
-The first quote from the US scores much lower in terms of sentiment than the latter. 
+The first quote from the US scores much lower in terms of sentiment than the latter. This is in line with our subjective perception of the quotes. 
 
-Clearly Europeans find themselves higher ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change. This could have many explanations, but we have found something interesting that could also have its impact : average quote length. Indeed, US quotes tend to be shorter and some positive correlation can be oserved between the complexity of quotes and their length.
+Clearly Europeans find themselves higher ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change.
+Let's not jump to conclusions what this has to say about the difference between the US and Europe.
+<br>
 
-{% include plots/europe_us_quote_length.html %}
-
-Let's not jump to conclusions what this has to say about the difference between the US and Europe. We do see however that the public debate on climate change tends to be more complex and more positive than in the US. 
+So Greta now faces an entirely different bunch of speakers, who are much more negative and less complex in the way they speak about climate change. 
+Also, suddenly there seem to be only two big players in the politics game. Greta now has to find out how the two major parties in the US behave. 
 
 ### The war of the home parties
-Sorry to bring to you this way, but it is no breaking news the two main parties in the US (Democrats and Republicans) are two political opposites fighting against each other. It has been this way for ages and we are still far from a change. Enough blah blah, a picture is worth a thousand words, how do they reaaally compare when it comes down to climate change ?
+
+It's no big news that the two main parties in the US (Democrats and Republicans) are two political opposites fighting against each other. It has been this way for ages and we are still far from a change. How do they compare when it comes to the topic of climate change ?
 
 {% include plots/republican_democratic_sentiment.html %}
 
-The mean sentiment linked to the Democrats is on average higher than the one linked to the Republicans. We cannot say we are surprised, as climate change was not really a top priority of Donald Trump's program since 2017. As we all remember, he withdrew from the Paris climate accord on 1st June 2017, we believe that made it quite clear. 😞
+The mean sentiment linked to the Democrats is on average higher than the one linked to the Republicans. This isn't a big surprise, as climate change was not really a top priority of Donald Trump's program since 2017. As we all remember, he withdrew from the Paris climate accord on 1st June 2017, we believe that made it quite clear. 😞
+<br>
+Let's look at the end boss of the final level of Greta's journey.
 
-### This one looks like a boxing match final round : Greta vs Trump
+### Greta vs Trump
+
 Now that we have some context, we can finally reach the pinnacle of comparisons, i.e. the most opposite political figures, i.e. the MVPs. Ladies and gentlemen, please welcome Greta Thunberg and Donald Trump :
 
 <div style="margin-right: 50%; transform: translateX(-50%);">{% include plots/greta_vs_trump.html %}</div>
