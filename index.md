@@ -50,12 +50,12 @@ Remember where we are (small hint : 🇺🇸) and where we came from (another hi
 
 The complexity of the scores were generated using the textstat library using the standard text scorer. A score of e.g. 9 means that the quote can be read and understood by an average 9th grader. 
 To demonstrate the scorer, let's take a look at a random quote from the US and from Europe.
-> *'Understanding and predicting future changes in tropical rainfall patterns is one of the greatest and most important challenges facing climate science today'* John Marshall
+> *'Understanding and predicting future changes in tropical rainfall patterns is one of the greatest and most important challenges facing climate science today'* John Marshall, complexity: 15.0
 
 This quote scored 15.0 in terms of complexity.
 Let's see what the US have to say: 
 
-> *'We have these questions about climate change but we have no direction yet on what we should in fact say. So, we wrote very wishy-washy answers and they got submitted to Secretary Mattis's team. And they came back to us and said, `These are too weak. Secretary Mattis believes in climate change and the risk to national security.' Maureen Sullivan
+> *'We have these questions about climate change but we have no direction yet on what we should in fact say. So, we wrote very wishy-washy answers and they got submitted to Secretary Mattis's team. And they came back to us and said, `These are too weak. Secretary Mattis believes in climate change and the risk to national security.'* Maureen Sullivan, complexity: 8.0
 
 One can already see the difference, but what do language analysis libraries have to say about this quote? 
 It scores 8 in terms of complexity, which means it can be understood by an eigth grader. 
@@ -64,17 +64,19 @@ And what about the sentiment on climate change? Might there be a difference how 
 
 {% include plots/europe_us_sentiment.html %}
 
+Let's generate another pair of random samples to see how they score sentiment wise. 
 
+> *Withdrawing from the Paris climate agreement is bad for the environment, bad for the economy, and it puts our children's future at risk,'* Mark Zuckerberg, sentiment score: -0.9991
 
-- complexity score 
-- sentiment score 
-- examples random
+> *'The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,'* Kimmo Tiilikainen, sentiment score: 0.8459
 
-Clearly, we, Europeans (yey 🥳) find ourselves better ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change. This could have many explanations, such as a difference in the average level of education, but we have found something interesting that could also have its impact : average quote length. Indeed, US quotes tend to be shorter and some positive correlation can be oserved between the complexity of quotes and their length.
+The first quote from the US scores much lower in terms of sentiment than the latter. 
+
+Clearly Europeans find themselves higher ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change. This could have many explanations, but we have found something interesting that could also have its impact : average quote length. Indeed, US quotes tend to be shorter and some positive correlation can be oserved between the complexity of quotes and their length.
 
 {% include plots/europe_us_quote_length.html %}
 
-Does this mean we can say Europeans are smarter ? 😃 Let us not jump into conclusions, but let us secretly believe in that. For now.
+Let's not jump to conclusions what this has to say about the difference between the US and Europe. We do see however that the public debate on climate change tends to be more complex and more positive than in the US. 
 
 ### The war of the home parties
 Sorry to bring to you this way, but it is no breaking news the two main parties in the US (Democrats and Republicans) are two political opposites fighting against each other. It has been this way for ages and we are still far from a change. Enough blah blah, a picture is worth a thousand words, how do they reaaally compare when it comes down to climate change ?
