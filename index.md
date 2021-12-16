@@ -1,16 +1,20 @@
 # Is the Greta effect fake news?
-> *If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken.* Greta Thunberg
+> *'If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken.'* Greta Thunberg
 
 For years now climate change has been one of the dominating topics in public debate.
 Since 2018 the "Friday for Future" movement has taken to the streets in an attempt to be heard by policy makers, led by a young woman from Sweden with a cardboard board.
 
-We will show how the debate was dominated by certain groups of people over the years, how they have been speaking about climate change and what has changed since Greta Thunberg arrived on the stage. In order to quantify the changes, sentiment analysis and language complexity analyis was performed on quotes on climate change from the Quotebank dataset. We will analyze the two years before Greta took off as a person of public interest and the two years after. As she started protesting in Sweden in August of 2018, but newspapers really started paying attention to her in early 2019, we define 2017-2018 as the years before Greta (b.G.) and 2019-2020 are considered after Greta (a.G.). 
+We will show how the debate was dominated by certain groups of people over the years, how they have been speaking about climate change and what has changed since Greta Thunberg arrived on the stage. 
+In order to quantify the changes, sentiment analysis and language complexity analyis was performed on quotes on climate change from the Quotebank dataset. 
+We will analyze the two years before Greta took off as a person of public interest and the two years after. As she started protesting in Sweden in August of 2018, but newspapers really started paying attention to her in early 2019, we define 2017-2018 as the years before Greta (b.G.) and 2019-2020 are considered after Greta (a.G.). 
 
 > *Speaker announcement : "Ladies and gentleman, welcome on board of the Gretaboat with destination to better world...*
 
 # Let us embark on the Gretadaventure
-First things firts : context !
+Let's start with some context on the debate before like who was being quoted on climate change in the years b.G and if anything has changed with Greta? 
+
 ### Female... Male... Where does she stand in the debate ?
+We found, that Greta doesn't belong to the typical speaker quoted on climate in the Quotebank dataset. 
 What's quite interesting about Greta Thunberg is that she isn't the typcal public speaker profile. She's young and not a male. To support our claim, we decided to explore gender diversity and age distribution in the quotes concerning climate change and how these two variables evolved with time.
 
 {% include plots/gender_piecharts.html %}
@@ -47,13 +51,36 @@ So, did Greta make America great again ? 🇺🇸
 Remember where we are (small hint : 🇺🇸) and where we came from (another hint : 🇪🇺). How do the two old friends compare in the climate change topic ?
 
 {% include plots/europe_us_complexity.html %}
+
+The complexity of the scores were generated using the textstat library using the standard text scorer. A score of e.g. 9 means that the quote can be read and understood by an average 9th grader. 
+To demonstrate the scorer, let's take a look at a random quote from the US and from Europe.
+> *'Understanding and predicting future changes in tropical rainfall patterns is one of the greatest and most important challenges facing climate science today'* John Marshall, complexity: 15.0
+
+This quote scored 15.0 in terms of complexity.
+Let's see what the US have to say: 
+
+> *'We have these questions about climate change but we have no direction yet on what we should in fact say. So, we wrote very wishy-washy answers and they got submitted to Secretary Mattis's team. And they came back to us and said, `These are too weak. Secretary Mattis believes in climate change and the risk to national security.'* Maureen Sullivan, complexity: 8.0
+
+One can already see the difference, but what do language analysis libraries have to say about this quote? 
+It scores 8 in terms of complexity, which means it can be understood by an eigth grader. 
+
+And what about the sentiment on climate change? Might there be a difference how the US and Europe feel and speak about this topic?
+
 {% include plots/europe_us_sentiment.html %}
 
-Clearly, we, Europeans (yey 🥳) find ourselves better ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change. This could have many explanations, such as a difference in the average level of education, but we have found something interesting that could also have its impact : average quote length. Indeed, US quotes tend to be shorter and some positive correlation can be oserved between the complexity of quotes and their length.
+Let's generate another pair of random samples to see how they score sentiment wise. 
+
+> *Withdrawing from the Paris climate agreement is bad for the environment, bad for the economy, and it puts our children's future at risk,'* Mark Zuckerberg, sentiment score: -0.9991
+
+> *'The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,'* Kimmo Tiilikainen, sentiment score: 0.8459
+
+The first quote from the US scores much lower in terms of sentiment than the latter. 
+
+Clearly Europeans find themselves higher ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change. This could have many explanations, but we have found something interesting that could also have its impact : average quote length. Indeed, US quotes tend to be shorter and some positive correlation can be oserved between the complexity of quotes and their length.
 
 {% include plots/europe_us_quote_length.html %}
 
-Does this mean we can say Europeans are smarter ? 😃 Let us not jump into conclusions, but let us secretly believe in that. For now.
+Let's not jump to conclusions what this has to say about the difference between the US and Europe. We do see however that the public debate on climate change tends to be more complex and more positive than in the US. 
 
 ### The war of the home parties
 Sorry to bring to you this way, but it is no breaking news the two main parties in the US (Democrats and Republicans) are two political opposites fighting against each other. It has been this way for ages and we are still far from a change. Enough blah blah, a picture is worth a thousand words, how do they reaaally compare when it comes down to climate change ?
@@ -70,14 +97,43 @@ Now that we have some context, we can finally reach the pinnacle of comparisons,
 
 These results came as a bit of a surprise for us. First : language complexity on climate change topics. Even though the republicans seem to have a lower language complexity score, Trump seems to be higher on that scale (still lower than Europe though, don't worry). The fact that Greta's language complexity comes at a lower rank could come down to the fact that english is not her mother tongue (which is not the case for Trump) and simply a matter of age. So far, so good, no big statements made. These results become interesting, when we look at the sentiment score. Greta starts off great (no puns intended, we swear) in 2018 and endures a severe fall in only a few months to join Trump's levels and remain there until 2020. This phenomena could be due to the fact that Greta appeared as a light in a dim world, by bringing to the table the topic of climate change. We believe the sentiment linked to her quotes dropped because of the fact that she quickly started bringing forward the consequences of climate change and to insist on how hopeless she was for the future. So, how could you link a positive sentiment with hopeless thoughts you wonder ? Well, clearly it is impossible. 🤷🏻
 
-# After this, everything is a work in progress (in artist language we say WIP)
+## Are we not forgetting something here? Duh, Climate Change! 🔥 
 
-
+Greta was of course a tour de force but what else might have had an impact on the public climate change debate?
 
 # Natural disaster
 
-# Testing plots
+Have you ever heard of Imelda? 
+She was a tropical strom that hit the US in September of 2019. She caused a lot of flooding in Texas and hence also damage to property. 
+You can see this damage in the plot below. It also shows the sum of the sentiment scores of all climate quotes. 
+This way we can show how many quotes there were on climate change but also how high they scored in terms of sentiment. 
 
+{% include plots/events_damages_sentiment.html %}
+
+It seems like natural disasters have an impact on the climate change debate. This doesn't come as great (greta) surprise, but hoch much the curve of sum of sentiment scores follows the damage to property is still impressive. 
+The first peak in damage to property was the tropical storm Imelda, whereas the second even higher peak in November 2019 was thunderstorms in Texas causing a lot of damage. 
+
+We believe that these natural disasters cause the public debate about climate change to heat up again. Politicians, who are the most quoted group in the dataset, are quoted on this subject a lot when an extreme weather event has happened. But why would the sentiment score sum give us any indication about the public debate?
+
+Let's see how different example quotes score in terms of sentiment: 
+
+> *Climate change is real* sentiment: Positive, 0.9976
+
+> *Climate change is an urgent matter* sentiment: Positive, 0.9773
+
+> *It's time to act on climate change* sentiment: Positive, 0.9962
+
+We can see from these few example quotes that even though they convey a message of urgency, they still score quite positive. 
+
+An example quote from October 2019 from the US shows the same thing: 
+
+> *'New Jersey is extremely vulnerable to the impacts of sea-level rise and global warming, and today's executive order outlines a bold and comprehensive set of actions to ensure that our communities and infrastructure are more resilient against future storms'* Phil Murphy, sentiment score: Positive, 0.998
+
+Even though the speaker is speaking about the recent events and the urgency to act, the overall sentiment is positive. 
+
+
+
+# Testing plots
 p.s. : Climate change was quoted 57 times in this article. Do you believe us ?
 <br>
 <br>
