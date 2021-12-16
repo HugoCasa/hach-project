@@ -53,6 +53,11 @@ Clearly, we, Europeans (yey 🥳) find ourselves better ranked in terms of compl
 
 {% include plots/europe_us_quote_length.html %}
 
+Does this mean we can say Europeans are smarter ? 😃 Let us not jump into conclusions, but let us secretly believe in that. For now.
+
+### The war of the home parties
+Sorry to bring to you this way, but it is no breaking news the two main parties in the US (Democrats and Republicans) are two political opposites fighting against each other. It has been this way for ages and we are still far from a change. Enough blah blah, a picture is worth a thousand words, how do they reaaally compare ?
+
 
 
 # After this, everything is a work in progress (in artist language we say WIP)
