@@ -93,13 +93,18 @@ Now that we have some context, we can finally reach the pinnacle of comparisons,
 
 These results came as a bit of a surprise for us. First : language complexity on climate change topics. Even though the republicans seem to have a lower language complexity score, Trump seems to be higher on that scale (still lower than Europe though, don't worry). The fact that Greta's language complexity comes at a lower rank could come down to the fact that english is not her mother tongue (which is not the case for Trump) and simply a matter of age. So far, so good, no big statements made. These results become interesting, when we look at the sentiment score. Greta starts off great (no puns intended, we swear) in 2018 and endures a severe fall in only a few months to join Trump's levels and remain there until 2020. This phenomena could be due to the fact that Greta appeared as a light in a dim world, by bringing to the table the topic of climate change. We believe the sentiment linked to her quotes dropped because of the fact that she quickly started bringing forward the consequences of climate change and to insist on how hopeless she was for the future. So, how could you link a positive sentiment with hopeless thoughts you wonder ? Well, clearly it is impossible. 🤷🏻
 
-# After this, everything is a work in progress (in artist language we say WIP)
-
-
+## Are we not forgetting something here? Greta was of course a tour de force but what else might have had an impact on the public climate change debate?
 
 # Natural disaster
 
+Have you heard about Imelda? She was a tropical strom that hit the US in September of 2019. She caused a lot of flooding in Texas and hence also damage to property. 
+You can see this damage in the plot below. It also shows the sum of the sentiment scores of all climate quotes. This way we can show how many quotes there were on climate change but also how high they scored in terms of sentiment. 
+
 {% include plots/events_damages_sentiment.html %}
+
+It seems like natural disasters have an impact on the climate change debate. This doesn't come as great (greta) surprise, but hoch much the curve of sum of sentiment scores follows the damage to property is still impressive. 
+
+
 
 # Testing plots
 
