@@ -76,6 +76,8 @@ These results came as a bit of a surprise for us. First : language complexity on
 
 # Natural disaster
 
+{% include plots/events_damages_sentiment.html %}
+
 # Testing plots
 
 p.s. : Climate change was quoted 57 times in this article. Do you believe us ?
