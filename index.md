@@ -1,5 +1,5 @@
 # Is the Greta effect fake news?
-> *'If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken.'* Greta Thunberg
+>> *'If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken.'* Greta Thunberg
 
 For years now climate change has been one of the dominating topics in public debate.
 Since 2018, the "Friday for Future" movement has taken to the streets in an attempt to be heard by policy makers, led by a young woman from Sweden with a cardboard board.
@@ -55,7 +55,7 @@ Greta first appeared in the media around september 2018 and the number of times 
 This shows that she must have had an impact on the debate. Everyone was starting to quote the young swedish woman. She even overtook Donald Trump. 😳
 <br>
 This leads us to the moment we've all been waiting for... The award of the 2019 most quoted quote goes too :
-> *School strike for the Climate.* Greta Thunberg
+>> *"School strike for the Climate."* Greta Thunberg
 
 It was quoted 727 times. Same quote. 727 different news media articles. That's a lot!
 <br>
@@ -142,16 +142,14 @@ Greta was of course a tour de force but what else might have had an impact on th
 >
 > She was a tropical storm that hit the US in September of 2019. She caused a lot of flooding in Texas and hence also damage to property.
 
-You can see this damage in the plot below. It also shows the sum of the sentiment scores of all climate quotes. 
-This way we can show how many quotes there were on climate change but also how high they scored in terms of sentiment. 
-We decided to use the total damage to property, because we believe it to be a good measure for the severity of a weather event and how it affected people. 
+The plot below shows the total damage to property in the US caused by weather events over the years. Additionally, it shows the weighted sentiment score over time. In this way we can explore how extreme weather events may have an influence on the climate change debate. 
 
-{% include plots/events_damages_sentiment.html %}
+{% include plots/damages_weighted_sentiment.html %}
 
-It seems like natural disasters have an impact on the climate change debate. This doesn't come as a great (greta) surprise, but how much the curve of sum of sentiment scores follows the damage to property is still impressive. 
+It seems like natural disasters have an impact on the climate change debate. This doesn't come as a great (greta) surprise, but how much the curve of weighted sentiment follows the damage to property is still impressive. 
 The first peak in damage to property was the tropical storm Imelda, whereas the second even higher peak in November 2019 was thunderstorms in Texas causing a lot of damage. 
 <br>
-We believe that these natural disasters cause the public debate about climate change to heat up again. Politicians, who are the most quoted group in the dataset, are quoted on this subject a lot when an extreme weather event has happened. But why would the sentiment score sum give us any indication about the public debate?
+We believe that these natural disasters cause the public debate about climate change to heat up again. Politicians, who are the most quoted group in the dataset, are quoted on this subject a lot when an extreme weather event has happened. But how can the weighted sentiment give us any indication about the public debate?
 <br>
 
 >Let's see how different example quotes score in terms of sentiment: 
@@ -162,24 +160,36 @@ We believe that these natural disasters cause the public debate about climate ch
 >> 
 >> *"It's time to act on climate change"*, sentiment: Positive, 0.9962
 >
->We can see from these few example quotes that even though they convey a message of urgency, they still score quite positive. 
+>We can see from these few example quotes that even though they convey a message of urgency, they still score positively. 
 
 >An example quote from October 2019 from the US shows the same thing: 
 >
->>*'New Jersey is extremely vulnerable to the impacts of sea-level rise and global warming, and today's executive order outlines a bold and comprehensive set of actions to ensure that our communities and infrastructure are more resilient against future storms'* Phil Murphy, sentiment score: Positive, 0.998
+>>*"New Jersey is extremely vulnerable to the impacts of sea-level rise and global warming, and today's executive order outlines a bold and comprehensive set of actions to ensure that our communities and infrastructure are more resilient against future storms"* Phil Murphy, sentiment score: Positive, 0.998
 >
 >Even though the speaker is speaking about the recent events and the urgency to act, the overall sentiment is positive. 
 
+One might expect the weighted sentiment score to fall after natural disasters. However these examples show, that after events like tropical storms that cause a lot of damage, when the debate about climate change is likely to fire up again, the weighted sentiment score can still rise. 
+As the weighted sentiment score weighs the number of times a quote was used additionally to it's sentiment, it gives a clear picture of the debate at any point.
+<br>
+
+Let's see how Greta and Trump compare with these two measures: 
+
+
+{% include plots/damages_weighted_sentiment_greta_trump.html %}
+
+Ah, it seems like when there is a lot of damage to property, Greta's positive quotes are used a lot. This strenghtens our assumption that these natural disasters have an impact on the climate change debate and who is quoted on this topic.
+
 # Bringing it home
 
-We embarked on a climate change journey in a mission to understand the context of debate and how it evolved around the topic for the past years. 
-More specifically, we followed Greta’s path as she has been one of the leading speakers on the topic of climate change since the beginning of 2019. 
+We embarked on a climate change journey in a mission to understand the context of debate and how it evolved around the topic for the past years. More specifically, we followed Greta’s path as she has been one of the leading speakers on the topic of climate change since the beginning of 2019 and tried to identify her impact in the situation.
 <br>
-We have discovered she arrived to a debate dominated by old men and that she might have ignited a spark of revolution that could've changed the discussion around climate change. 
+We have discovered she arrived to a debate dominated by old men and initially believed she might have ignited a spark of revolution that could’ve changed the discussion around climate change on a global scale.
 <br>
-We then sailed with Greta over the big pond to investigate how the US compare to Europe in terms of language complexity and sentiment.
-We found that in Europe the discussion is more complex and on average more positive than in the US. We tried pushing the comparison further by focusing on someone at the other end of the political spectrum, namely Donald Trump.  We found that the quotes of these two speakers don't differ too much in terms of sentiment and complexity.
+We then sailed with Greta over the big pond to investigate how the US compare to Europe in terms of language complexity and sentiment on the topic of climate change and found that in Europe the discussion is often linked with more complexity and on average with more positivity than in the US. We tried pushing the comparison further by focusing on someone at the other end of the political spectrum, namely Donald Trump. We found that the quotes of these two speakers don’t differ too much in terms of sentiment and complexity regarding climate change.
 <br>
-Additionally, we performed an analysis on the correlation of extreme weather events in the US with change in sentiment over the years and we found something interesting: there is a correlation between weather events and the weighted sentiment sum of all climate quotes.
+Finally, we tried to turn the problem upside down and look for other potential game-changers, so we looked into extreme weather events in the US. We performed an analysis on the correlation of extreme weather events with change in sentiment over the years and obtained an interesting result: there is a correlation between weather events and the weighted sentiment sum of all climate quotes.
 <br>
-We saw that natural weather events have a large impact on the climate change debate, and that Greta hasn't fundamentally shifted the demography of speakers in recent years.
+
+It's impossible to think about the climate change debate these days without thinking about Greta Thunberg. Even though she didn't fundamentally change the demography of who is being quoted on climate change, she became the top speaker on the topic in a matter of months. Her impact on the debate reaches further than just the Quotebank dataset. 
+<br>
+We found that what might have an actual longer lasting impact on the climate change debate, is the climate itself. We saw how the natural disasters and the damage to property caused a peak in the weighted sentiment score, as there was an increase in urgency about the topic. 
