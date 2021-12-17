@@ -93,13 +93,13 @@ And what about the sentiment on climate change? Might there be a difference how 
 
 {% include plots/europe_us_sentiment.html %}
 
-Let's generate another pair of random samples to see how they score sentiment wise. 
-<br>
-*Withdrawing from the Paris climate agreement is bad for the environment, bad for the economy, and it puts our children's future at risk,'* Mark Zuckerberg, sentiment score: -0.9991
-<br>
-*'The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,'* Kimmo Tiilikainen, sentiment score: 0.8459
-
-The first quote from the US scores much lower in terms of sentiment than the latter. This is in line with our subjective perception of the quotes. 
+>Let's generate another pair of random samples to see how they score sentiment wise. 
+>
+>>*Withdrawing from the Paris climate agreement is bad for the environment, bad for the economy, and it puts our children's future at risk,'* Mark Zuckerberg, sentiment score: -0.9991
+>
+>>*'The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,'* Kimmo Tiilikainen, sentiment score: 0.8459
+>
+>The first quote from the US scores much lower in terms of sentiment than the latter. This is in line with our subjective perception of the quotes. 
 
 Clearly Europeans find themselves higher ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change.
 Let's not jump to conclusions what this has to say about the difference between the US and Europe.
