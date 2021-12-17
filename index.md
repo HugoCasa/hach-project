@@ -172,6 +172,8 @@ One might expect the weighted sentiment score to fall after natural disasters. H
 As the weighted sentiment score weighs the number of times a quote was used additionally to it's sentiment, it gives a clear picture of the debate at any point. 
 
 
+{% include plots/damages_weighted_sentiment_greta_trump.html %}
+
 # Bringing it home
 
 We embarked on a climate change journey in a mission to understand the context of debate and how it evolved around the topic for the past years. 
