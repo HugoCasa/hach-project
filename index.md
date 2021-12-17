@@ -15,6 +15,7 @@ We will analyze the two years before Greta took off as a person of public intere
 # Let us embark on the Gretadaventure
 Let's start with some context on the debate before like who was being quoted on climate change in the years b.G and if anything has changed with Greta? 
 
+> We will take you along Greta's journey to explore the world of the climate change debate. We will see what she encountered when she answered her calling as role model for a whole generation, how Europe and the US are indeed two very different places and what Trump and Greta have in common. 
 
 ### Who is speaking about climate change?
 We found that Greta doesn't belong to the typical speaker quoted on climate in the Quotebank dataset. She's a young woman, not a politician and from a country with a rather small population in Europe. 
@@ -67,7 +68,8 @@ What did she find when she sailed across?
 
 ### A warm welcome
 
-Greta has now reached the USA, but how do the US and Europe compare when it comes to public debate about climate change? 
+> Greta has now reached the USA, but how do the US and Europe compare when it comes to public debate about climate change? 
+
 <br>
 In order to find out about the differences we analyzed the quotes over the two years b.G and a.G. and compared the US to Europe. 
 
@@ -137,9 +139,10 @@ Greta was of course a tour de force but what else might have had an impact on th
 
 # Natural disaster
 
-Have you ever heard of Imelda? 
-<br>
-She was a tropical strom that hit the US in September of 2019. She caused a lot of flooding in Texas and hence also damage to property. 
+> Have you ever heard of Imelda? 
+>
+> She was a tropical strom that hit the US in September of 2019. She caused a lot of flooding in Texas and hence also damage to property.
+
 You can see this damage in the plot below. It also shows the sum of the sentiment scores of all climate quotes. 
 This way we can show how many quotes there were on climate change but also how high they scored in terms of sentiment. 
 
@@ -157,6 +160,7 @@ Let's see how different example quotes score in terms of sentiment:
 > *Climate change is an urgent matter* sentiment: Positive, 0.9773
 <br>
 > *It's time to act on climate change* sentiment: Positive, 0.9962
+
 <br>
 We can see from these few example quotes that even though they convey a message of urgency, they still score quite positive. 
 
