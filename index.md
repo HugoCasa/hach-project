@@ -127,7 +127,7 @@ Let's look at the end boss of the final level of Greta's journey.
 
 Now that we have some context, we can finally reach the pinnacle of comparisons. Ladies and gentlemen, please welcome Greta Thunberg and Donald Trump :
 
-<div style="margin-right: 50%; transform: translateX(-50%);">{% include plots/greta_vs_trump.html %}</div>
+{% include plots/greta_vs_trump.html %}
 
 There isn't such a big difference in complexity and sentiment for the two speakers.
 <br>
