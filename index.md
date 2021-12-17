@@ -35,7 +35,7 @@ Ah, we see here that indeed the majority of speakers tend to be older rather tha
 <br>
 The sample of population speaking about climate change in 2018 has a mean age of 56 years. The majority of speakers in the dataset are politicians and it's biased towards english speaking news, so this doesn't come as a big surprise.
 
-> The years before Greta (b.G): The years before Greta are characterized by a lot of old men speaking about climate change. We count 2017 and 2018 as before Greta, as she started to take off as a public speaker by the end of 2018 only. 
+> The years before Greta (b.G): We count 2017 and 2018 as before Greta, as she started to take off as a public speaker by the end of 2018 only. 
 
 <br>
 The fact that Greta, 16 years old, is being quoted about climate change is a game changer, as she stands out from the typical population in this context.
@@ -144,6 +144,7 @@ Greta was of course a tour de force but what else might have had an impact on th
 
 You can see this damage in the plot below. It also shows the sum of the sentiment scores of all climate quotes. 
 This way we can show how many quotes there were on climate change but also how high they scored in terms of sentiment. 
+We decided to use the total damage to property, because we believe it to be a good measure for the severity of a weather event and how it affected people. 
 
 {% include plots/events_damages_sentiment.html %}
 
