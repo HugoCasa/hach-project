@@ -38,7 +38,7 @@ Ah, we see here that indeed the majority of speakers tend to be older rather tha
 <br>
 The sample of population speaking about climate change in 2018 has a mean age of 56 years. The majority of speakers in the dataset are politicians and it's biased towards english speaking news, so this doesn't come as a big surprise.
 
-> The years before Greta (b.G): We count 2017 and 2018 as before Greta, as she started to take off as a public speaker by the end of 2018 only. 
+> The years before Greta (b.G): The years before Greta are characterized by a lot of old men speaking about climate change. 
 
 <br>
 The fact that Greta, 16 years old, is being quoted about climate change is a game changer, as she stands out from the typical population in this context.
