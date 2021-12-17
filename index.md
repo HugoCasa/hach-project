@@ -10,7 +10,7 @@ In order to quantify the changes, sentiment analysis and language complexity ana
 <br>
 We will analyze the two years before Greta took off as a person of public interest and the two years after. She started protesting in Sweden in August of 2018, but newspapers really started paying attention to her in early 2019. We define 2017-2018 as the years before Greta (b.G.) and 2019-2020 are considered after Greta (a.G.). 
 
-> *Speaker announcement : "Ladies and gentleman, welcome on board of the Gretaboat with destination to Better World...*
+> *Speaker announcement : "Ladies and gentleman, welcome on board of the Gretaboat with destination to Better World..."*
 
 # Let us embark on the Gretadaventure
 Let's start with some context on the debate before like who was being quoted on climate change in the years b.G and if anything has changed with Greta? 
