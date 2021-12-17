@@ -156,7 +156,7 @@ We believe that these natural disasters cause the public debate about climate ch
 
 >Let's see how different example quotes score in terms of sentiment: 
 >
->> * "Climate change is real"*, sentiment: Positive, 0.9976
+>> *"Climate change is real"*, sentiment: Positive, 0.9976
 >> 
 >> *"Climate change is an urgent matter"*, sentiment: Positive, 0.9773
 >> 
