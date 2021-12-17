@@ -115,6 +115,12 @@ It is no big news that the two main parties in the US (Democrats and Republicans
 
 The mean sentiment linked to the Democrats is on average higher than the one linked to the Republicans. This isn't a big surprise, as climate change was not really a top priority of Donald Trump's program since 2017. As we all remember, he withdrew from the Paris climate accord on 1st June 2017, we believe that made it quite clear.
 <br>
+And how do the two major parties compare in terms of complexity?
+
+{% include plots/republican_democratic_complexity.html %}
+
+Interestingly enough, there doesn't seem to be a large difference between the two parties. Especially not as large as the difference between the US and Europe. 
+<br>
 Let's look at the end boss of the final level of Greta's journey.
 
 ### Greta vs Trump
@@ -201,4 +207,4 @@ p.s. : Did you know we used the words "climate change" 40 times in this page ?
 p.p.s. : You checked the number didn't you ?
 <br>
 <br>
-p.p.s. : Thank you for reading this far !
+p.p.p.s. : Thank you for reading this far !
