@@ -1,5 +1,8 @@
 <div style="text-align: center;">
-  <img src="/assets/images/cover-image.jpeg" alt="Greta vs Trump">
+  <figure>
+    <img src="/assets/images/cover-image.jpeg" alt="Greta vs Trump">
+    <figcaption>Source: Ian Baker</figcaption>
+  </figure>
 </div>
 
 # Is the Greta effect fake news?
