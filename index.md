@@ -38,7 +38,7 @@ Ah, we see here that indeed the majority of speakers tend to be older rather tha
 <br>
 The sample of population speaking about climate change in 2018 has a mean age of 56 years. The majority of speakers in the dataset are politicians and it's biased towards english speaking news, so this doesn't come as a big surprise.
 
-> The years before Greta (b.G): We count 2017 and 2018 as before Greta, as she started to take off as a public speaker by the end of 2018 only. 
+> The years before Greta (b.G): The years before Greta are characterized by a lot of old men speaking about climate change. 
 
 <br>
 The fact that Greta, 16 years old, is being quoted about climate change is a game changer, as she stands out from the typical population in this context.
@@ -102,15 +102,16 @@ And what about the sentiment on climate change? Might there be a difference in h
 >>*"The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,"* Kimmo Tiilikainen, sentiment score: 0.8459
 
 The first quote from the US scores much lower in terms of sentiment than the latter. This is in line with our subjective perception of the quotes. 
+The sentiment scores range between -1 for the most negative and 1 for the most positive. 
 
-Clearly Europeans find themselves higher ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change.
+Clearly Europeans find themselves higher ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change. Here we focus on the country of origin of the speakers. 
 Nevertheless, let's not jump to conclusions what this has to say about the difference between the US and Europe.
 <br>
 
 Greta now faces an entirely different bunch of speakers, who are much more negative and less complex in the way they speak about climate change. 
 Moreover, only two big players stand out in the politics game. The next step is therefore to figure out how the two major parties in the US behave.
 
-### The war of the home parties
+### Elephant vs. Donkey
 
 It is no big news that the two main parties in the US (Democrats and Republicans) are two political opposites fighting against each other. It has been this way for ages and we are still far from a change. How do they compare when it comes to the topic of climate change ?
 
@@ -151,7 +152,7 @@ Greta was of course a tour de force but what else might have had an impact on th
 >
 > She was a tropical storm that hit the US in September of 2019. She caused a lot of flooding in Texas and hence also damage to property.
 
-The plot below shows the total damage to property in the US caused by weather events over the years. Additionally, it shows the weighted sentiment score over time. In this way we can explore how extreme weather events may have an influence on the climate change debate. 
+The plot below shows the total damage to property in the US caused by weather events over the years. Additionally, it shows the weighted sentiment score over time. In this way we can explore how extreme weather events may have an influence on the climate change debate. The weighted sentiment score weighs the number of times a quote was used additionally to it's sentiment, it gives a clear picture of the debate at any point.
 
 {% include plots/damages_weighted_sentiment.html %}
 
@@ -178,7 +179,7 @@ We believe that these natural disasters cause the public debate about climate ch
 >Even though the speaker is speaking about the recent events and the urgency to act, the overall sentiment is positive. 
 
 One might expect the weighted sentiment score to fall after natural disasters. However these examples show, that after events like tropical storms that cause a lot of damage, when the debate about climate change is likely to fire up again, the weighted sentiment score can still rise. 
-As the weighted sentiment score weighs the number of times a quote was used additionally to it's sentiment, it gives a clear picture of the debate at any point.
+
 <br>
 
 Let's see how Greta and Trump compare with these two measures: 
