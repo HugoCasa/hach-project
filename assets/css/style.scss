@@ -11,6 +11,10 @@
   display: none;
 }
 
+p:first-of-type {
+  text-align: center;
+}
+
 #main_content_wrap {
   background: #fff;
 }

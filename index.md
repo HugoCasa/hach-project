@@ -1,9 +1,5 @@
-<div style="text-align: center;">
-  <figure>
-    <img src="/images/cover-image.jpeg" alt="Greta vs Trump">
-    <figcaption>Source: Ian Baker</figcaption>
-  </figure>
-</div>
+![Greta vs Trump](/assets/images/cover-image.jpeg)
+<br>*Source: Ian Baker*
 
 # Is the Greta effect fake news?
 >> *"If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken."* Greta Thunberg
