@@ -55,7 +55,7 @@ Greta first appeared in the media around september 2018 and the number of times 
 This shows that she must have had an impact on the debate. Everyone was starting to quote the young swedish woman. She even overtook Donald Trump. 😳
 <br>
 This leads us to the moment we've all been waiting for... The award of the 2019 most quoted quote goes too :
-> *School strike for the Climate.* Greta Thunberg
+>> *"School strike for the Climate."* Greta Thunberg
 
 It was quoted 727 times. Same quote. 727 different news media articles. That's a lot!
 <br>
@@ -164,15 +164,20 @@ We believe that these natural disasters cause the public debate about climate ch
 
 >An example quote from October 2019 from the US shows the same thing: 
 >
->>*'New Jersey is extremely vulnerable to the impacts of sea-level rise and global warming, and today's executive order outlines a bold and comprehensive set of actions to ensure that our communities and infrastructure are more resilient against future storms'* Phil Murphy, sentiment score: Positive, 0.998
+>>*"New Jersey is extremely vulnerable to the impacts of sea-level rise and global warming, and today's executive order outlines a bold and comprehensive set of actions to ensure that our communities and infrastructure are more resilient against future storms"* Phil Murphy, sentiment score: Positive, 0.998
 >
 >Even though the speaker is speaking about the recent events and the urgency to act, the overall sentiment is positive. 
 
 One might expect the weighted sentiment score to fall after natural disasters. However these examples show, that after events like tropical storms that cause a lot of damage, when the debate about climate change is likely to fire up again, the weighted sentiment score can still rise. 
-As the weighted sentiment score weighs the number of times a quote was used additionally to it's sentiment, it gives a clear picture of the debate at any point. 
+As the weighted sentiment score weighs the number of times a quote was used additionally to it's sentiment, it gives a clear picture of the debate at any point.
+<br>
+
+Let's see how Greta and Trump compare with these two measures: 
 
 
 {% include plots/damages_weighted_sentiment_greta_trump.html %}
+
+Ah, it seems like when there is a lot of damage to property, Greta's positive quotes are used a lot. This strenghtens our assumption that these natural disasters have an impact on the climate change debate and who is quoted on this topic.
 
 # Bringing it home
 
