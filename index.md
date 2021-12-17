@@ -193,3 +193,12 @@ Finally, we tried to turn the problem upside down and look for other potential g
 It's impossible to think about the climate change debate these days without thinking about Greta Thunberg. Even though she didn't fundamentally change the demography of who is being quoted on climate change, she became the top speaker on the topic in a matter of months. Her impact on the debate reaches further than just the Quotebank dataset. 
 <br>
 We found that what might have an actual longer lasting impact on the climate change debate, is the climate itself. We saw how the natural disasters and the damage to property caused a peak in the weighted sentiment score, as there was an increase in urgency about the topic. 
+<br>
+<br>
+p.s. : Did you know we used the words "climate change" 40 times in this page ?
+<br>
+<br> 
+p.p.s. : You check the number didn't you ?
+<br>
+<br>
+p.p.s. : Thank you for reading this far !
