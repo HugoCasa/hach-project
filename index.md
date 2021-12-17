@@ -86,18 +86,17 @@ The complexity of the scores were generated using the textstat library using the
 >
 >Reading them one can already guess that the second quote from the US scores lower, but why is that? 
 >
->It cannot be due to the length of the quote, as it is much longer and still scores lower than the first. The scorer we used for the analysis is based on multiple functions that take into account number of words, complex words, sentences etc.
-In the second quote the  'wishy-washy answers' must be of lower complexity than for example the 'tropical rainfall patterns' from the first quote.  
+>It cannot be due to the length of the quote, as it is much longer and still scores lower than the first. The scorer we used for the analysis is based on multiple functions that take into account number of words, complex words, and sentences. A possible explanation for the difference in complexity could be for example that the  'wishy-washy answers' in the second quote score lower than the 'tropical rainfall patterns' from the first quote. 
 
 And what about the sentiment on climate change? Might there be a difference in how the US and Europe feel and speak about this topic?
 
 {% include plots/europe_us_sentiment.html %}
 
-Let's generate another pair of random samples to see how they score sentiment wise. 
-<br>
-*Withdrawing from the Paris climate agreement is bad for the environment, bad for the economy, and it puts our children's future at risk,'* Mark Zuckerberg, sentiment score: -0.9991
-<br>
-*'The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,'* Kimmo Tiilikainen, sentiment score: 0.8459
+>Let's generate another pair of random samples to see how they score sentiment wise. 
+>
+>>*Withdrawing from the Paris climate agreement is bad for the environment, bad for the economy, and it puts our children's future at risk,'* Mark Zuckerberg, sentiment score: -0.9991
+>
+>>*'The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,'* Kimmo Tiilikainen, sentiment score: 0.8459
 
 The first quote from the US scores much lower in terms of sentiment than the latter. This is in line with our subjective perception of the quotes. 
 
@@ -156,7 +155,7 @@ We believe that these natural disasters cause the public debate about climate ch
 
 >Let's see how different example quotes score in terms of sentiment: 
 >
->> * "Climate change is real"*, sentiment: Positive, 0.9976
+>> *"Climate change is real"*, sentiment: Positive, 0.9976
 >> 
 >> *"Climate change is an urgent matter"*, sentiment: Positive, 0.9773
 >> 
@@ -164,11 +163,11 @@ We believe that these natural disasters cause the public debate about climate ch
 >
 >We can see from these few example quotes that even though they convey a message of urgency, they still score quite positive. 
 
-An example quote from October 2019 from the US shows the same thing: 
-<br>
-*'New Jersey is extremely vulnerable to the impacts of sea-level rise and global warming, and today's executive order outlines a bold and comprehensive set of actions to ensure that our communities and infrastructure are more resilient against future storms'* Phil Murphy, sentiment score: Positive, 0.998
-
-Even though the speaker is speaking about the recent events and the urgency to act, the overall sentiment is positive. 
+>An example quote from October 2019 from the US shows the same thing: 
+>
+>>*'New Jersey is extremely vulnerable to the impacts of sea-level rise and global warming, and today's executive order outlines a bold and comprehensive set of actions to ensure that our communities and infrastructure are more resilient against future storms'* Phil Murphy, sentiment score: Positive, 0.998
+>
+>Even though the speaker is speaking about the recent events and the urgency to act, the overall sentiment is positive. 
 
 # Bringing it home
 
