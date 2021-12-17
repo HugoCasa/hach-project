@@ -152,7 +152,7 @@ Greta was of course a tour de force but what else might have had an impact on th
 >
 > She was a tropical storm that hit the US in September of 2019. She caused a lot of flooding in Texas and hence also damage to property.
 
-The plot below shows the total damage to property in the US caused by weather events over the years. Additionally, it shows the weighted sentiment score over time. In this way we can explore how extreme weather events may have an influence on the climate change debate. 
+The plot below shows the total damage to property in the US caused by weather events over the years. Additionally, it shows the weighted sentiment score over time. In this way we can explore how extreme weather events may have an influence on the climate change debate. The weighted sentiment score weighs the number of times a quote was used additionally to it's sentiment, it gives a clear picture of the debate at any point.
 
 {% include plots/damages_weighted_sentiment.html %}
 
@@ -179,7 +179,7 @@ We believe that these natural disasters cause the public debate about climate ch
 >Even though the speaker is speaking about the recent events and the urgency to act, the overall sentiment is positive. 
 
 One might expect the weighted sentiment score to fall after natural disasters. However these examples show, that after events like tropical storms that cause a lot of damage, when the debate about climate change is likely to fire up again, the weighted sentiment score can still rise. 
-As the weighted sentiment score weighs the number of times a quote was used additionally to it's sentiment, it gives a clear picture of the debate at any point.
+
 <br>
 
 Let's see how Greta and Trump compare with these two measures: 
