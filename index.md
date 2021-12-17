@@ -142,16 +142,14 @@ Greta was of course a tour de force but what else might have had an impact on th
 >
 > She was a tropical storm that hit the US in September of 2019. She caused a lot of flooding in Texas and hence also damage to property.
 
-You can see this damage in the plot below. It also shows the sum of the sentiment scores of all climate quotes. 
-This way we can show how many quotes there were on climate change but also how high they scored in terms of sentiment. 
-We decided to use the total damage to property, because we believe it to be a good measure for the severity of a weather event and how it affected people. 
+The plot below shows the total damage to property in the US caused by weather events over the years. Additionally, it shows the weighted sentiment score over time. In this way we can explore how extreme weather events may have an influence on the climate change debate. 
 
-{% include plots/events_damages_sentiment.html %}
+{% include plots/damages_weighted_sentiment.html %}
 
-It seems like natural disasters have an impact on the climate change debate. This doesn't come as a great (greta) surprise, but how much the curve of sum of sentiment scores follows the damage to property is still impressive. 
+It seems like natural disasters have an impact on the climate change debate. This doesn't come as a great (greta) surprise, but how much the curve of weighted sentiment follows the damage to property is still impressive. 
 The first peak in damage to property was the tropical storm Imelda, whereas the second even higher peak in November 2019 was thunderstorms in Texas causing a lot of damage. 
 <br>
-We believe that these natural disasters cause the public debate about climate change to heat up again. Politicians, who are the most quoted group in the dataset, are quoted on this subject a lot when an extreme weather event has happened. But why would the sentiment score sum give us any indication about the public debate?
+We believe that these natural disasters cause the public debate about climate change to heat up again. Politicians, who are the most quoted group in the dataset, are quoted on this subject a lot when an extreme weather event has happened. But how can the weighted sentiment give us any indication about the public debate?
 <br>
 
 >Let's see how different example quotes score in terms of sentiment: 
@@ -162,13 +160,17 @@ We believe that these natural disasters cause the public debate about climate ch
 >> 
 >> *"It's time to act on climate change"*, sentiment: Positive, 0.9962
 >
->We can see from these few example quotes that even though they convey a message of urgency, they still score quite positive. 
+>We can see from these few example quotes that even though they convey a message of urgency, they still score positively. 
 
 >An example quote from October 2019 from the US shows the same thing: 
 >
 >>*'New Jersey is extremely vulnerable to the impacts of sea-level rise and global warming, and today's executive order outlines a bold and comprehensive set of actions to ensure that our communities and infrastructure are more resilient against future storms'* Phil Murphy, sentiment score: Positive, 0.998
 >
 >Even though the speaker is speaking about the recent events and the urgency to act, the overall sentiment is positive. 
+
+One might expect the weighted sentiment score to fall after natural disasters. However these examples show, that after events like tropical storms that cause a lot of damage, when the debate about climate change is likely to fire up again, the weighted sentiment score can still rise. 
+As the weighted sentiment score weighs the number of times a quote was used additionally to it's sentiment, it gives a clear picture of the debate at any point. 
+
 
 # Bringing it home
 
