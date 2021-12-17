@@ -198,7 +198,7 @@ We found that what might have an actual longer lasting impact on the climate cha
 p.s. : Did you know we used the words "climate change" 40 times in this page ?
 <br>
 <br> 
-p.p.s. : You check the number didn't you ?
+p.p.s. : You checked the number didn't you ?
 <br>
 <br>
 p.p.s. : Thank you for reading this far !
