@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+  <img src="/assets/images/cover-image.jpeg" alt="Greta vs Trump">
+</div>
+
 # Is the Greta effect fake news?
 >> *"If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken."* Greta Thunberg
 
