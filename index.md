@@ -1,5 +1,5 @@
 # Is the Greta effect fake news?
->> *'If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken.'* Greta Thunberg
+>> *"If standing up against the climate and ecological breakdown and for humanity is against the rules, then the rules must be broken."* Greta Thunberg
 
 For years now climate change has been one of the dominating topics in public debate.
 Since 2018, the "Friday for Future" movement has taken to the streets in an attempt to be heard by policy makers, led by a young woman from Sweden with a cardboard board.
@@ -10,7 +10,7 @@ In order to quantify the changes, sentiment analysis and language complexity ana
 <br>
 We will analyze the two years before Greta took off as a person of public interest and the two years after. She started protesting in Sweden in August of 2018, but newspapers really started paying attention to her in early 2019. We define 2017-2018 as the years before Greta (b.G.) and 2019-2020 are considered after Greta (a.G.). 
 
-> *Speaker announcement : "Ladies and gentleman, welcome on board of the Gretaboat with destination to Better World...*
+> *Speaker announcement : "Ladies and gentleman, welcome on board of the Gretaboat with destination to Better World..."*
 
 # Let us embark on the Gretadaventure
 Let's start with some context on the debate before like who was being quoted on climate change in the years b.G and if anything has changed with Greta? 
@@ -79,10 +79,10 @@ The complexity of the scores were generated using the textstat library using the
 <br>
 
 >To demonstrate the scorer, let's take a look at a random quote from the US and from Europe.
->> *'Understanding and predicting future changes in tropical rainfall patterns is one of the greatest and most important challenges facing climate science today'* John Marshall, complexity: 15.0
+>> *"Understanding and predicting future changes in tropical rainfall patterns is one of the greatest and most important challenges facing climate science today"* John Marshall, complexity: 15.0
 >
 >Let's see what the US have to say: 
->> *'We have these questions about climate change but we have no direction yet on what we should in fact say. So, we wrote very wishy-washy answers and they got submitted to Secretary Mattis's team. And they came back to us and said, `These are too weak. Secretary Mattis believes in climate change and the risk to national security.'* Maureen Sullivan, complexity: 8.0
+>> *"We have these questions about climate change but we have no direction yet on what we should in fact say. So, we wrote very wishy-washy answers and they got submitted to Secretary Mattis's team. And they came back to us and said, `These are too weak. Secretary Mattis believes in climate change and the risk to national security."* Maureen Sullivan, complexity: 8.0
 >
 >Reading them one can already guess that the second quote from the US scores lower, but why is that? 
 >
@@ -94,9 +94,9 @@ And what about the sentiment on climate change? Might there be a difference in h
 
 >Let's generate another pair of random samples to see how they score sentiment wise. 
 >
->>*Withdrawing from the Paris climate agreement is bad for the environment, bad for the economy, and it puts our children's future at risk,'* Mark Zuckerberg, sentiment score: -0.9991
+>>*"Withdrawing from the Paris climate agreement is bad for the environment, bad for the economy, and it puts our children's future at risk,"* Mark Zuckerberg, sentiment score: -0.9991
 >
->>*'The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,'* Kimmo Tiilikainen, sentiment score: 0.8459
+>>*"The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,"* Kimmo Tiilikainen, sentiment score: 0.8459
 
 The first quote from the US scores much lower in terms of sentiment than the latter. This is in line with our subjective perception of the quotes. 
 
@@ -114,6 +114,12 @@ It is no big news that the two main parties in the US (Democrats and Republicans
 {% include plots/republican_democratic_sentiment.html %}
 
 The mean sentiment linked to the Democrats is on average higher than the one linked to the Republicans. This isn't a big surprise, as climate change was not really a top priority of Donald Trump's program since 2017. As we all remember, he withdrew from the Paris climate accord on 1st June 2017, we believe that made it quite clear.
+<br>
+And how do the two major parties compare in terms of complexity?
+
+{% include plots/republican_democratic_complexity.html %}
+
+Interestingly enough, there doesn't seem to be a large difference between the two parties. Especially not as large as the difference between the US and Europe. 
 <br>
 Let's look at the end boss of the final level of Greta's journey.
 
@@ -193,3 +199,12 @@ Finally, we tried to turn the problem upside down and look for other potential g
 It's impossible to think about the climate change debate these days without thinking about Greta Thunberg. Even though she didn't fundamentally change the demography of who is being quoted on climate change, she became the top speaker on the topic in a matter of months. Her impact on the debate reaches further than just the Quotebank dataset. 
 <br>
 We found that what might have an actual longer lasting impact on the climate change debate, is the climate itself. We saw how the natural disasters and the damage to property caused a peak in the weighted sentiment score, as there was an increase in urgency about the topic. 
+<br>
+<br>
+p.s. : Did you know we used the words "climate change" 40 times in this page ?
+<br>
+<br> 
+p.p.s. : You checked the number didn't you ?
+<br>
+<br>
+p.p.p.s. : Thank you for reading this far !
