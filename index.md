@@ -172,19 +172,14 @@ We believe that these natural disasters cause the public debate about climate ch
 
 # Bringing it home
 
-We embarked on a journey with Greta, to find out what she is confronted with being one of the leading speakers on the climate change topic. We sailed across the big pond to discover a new world, and found that speakers over there are even more negative and less complex than in Europe. 
+We embarked on a climate change journey in a mission to understand the context of debate and how it evolved around the topic for the past years. 
+More specifically, we followed Greta’s path as she has been one of the leading speakers on the topic of climate change since the beginning of 2019. 
 <br>
-We compared Trump to Greta and found that in terms of complexity and sentiment, they are not that far from each other as we might have expected. Furthermore, we found that the overall demography of speakers hasn't changed by a lot since Greta has been taking part in the public debate. 
-<br> 
-Most interestingly, we found that the quotes on climate change are likely to be linked with the weather events. 
-
-
-
-
-p.s. : Climate change was quoted 57 times in this article. Do you believe us ?
+We have discovered she arrived to a debate dominated by old men and that she might have ignited a spark of revolution that could've changed the discussion around climate change. 
 <br>
+We then sailed with Greta over the big pond to investigate how the US compare to Europe in terms of language complexity and sentiment.
+We found that in Europe the discussion is more complex and on average more positive than in the US. We tried pushing the comparison further by focusing on someone at the other end of the political spectrum, namely Donald Trump.  We found that the quotes of these two speakers don't differ too much in terms of sentiment and complexity.
 <br>
-p.p.s : You checked the number, didn't you ?
+Additionally, we performed an analysis on the correlation of extreme weather events in the US with change in sentiment over the years and we found something interesting: there is a correlation between weather events and the weighted sentiment sum of all climate quotes.
 <br>
-<br>
-p.p.p.s : Thank you for reading !
+We saw that natural weather events have a large impact on the climate change debate, and that Greta hasn't fundamentally shifted the demography of speakers in recent years.
