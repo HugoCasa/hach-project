@@ -24,7 +24,7 @@ Let start by taking a look at the distribution of the gender of the quoted speak
 
 We can only observe a small increase in the percentage of women quoted throughout the years. It remains at roughly 20% which is far from being representative of the population. Other genders were also present in the dataset but their numbers were irrelevant compared to the two dominating categories and were therefore not visible on the graphs which shows again underrepresentation of some groups of people in the quoted speakers.  
 
-### A topic for old white men? 👨‍🦳
+### A topic for old men?
 
 {% include plots/age_plot.html %}
 
@@ -77,7 +77,8 @@ Let's see what the US have to say:
 
 Reading them one can already guess that the second quote from the US scores lower, but why is that? 
 <br>
-It cannot be due to the length of the quote, as it is much longer and still scores lower than the first. Since the scorer we used for the analysis is based on multiple functions
+It cannot be due to the length of the quote, as it is much longer and still scores lower than the first. The scorer we used for the analysis is based on multiple functions that take into account number of words, complex words, sentences etc.
+In the second quote the  'wishy-washy answers' must be of lower complexity than for example the 'tropical rainfall patterns' from the first quote.  
 
 And what about the sentiment on climate change? Might there be a difference how the US and Europe feel and speak about this topic?
 
@@ -89,36 +90,48 @@ Let's generate another pair of random samples to see how they score sentiment wi
 
 > *'The European Union must align our climate and energy policy according to the 1.5 ° C [ rise in average global temperatures ] target. That means that the EU must achieve carbon neutrality by 2050,'* Kimmo Tiilikainen, sentiment score: 0.8459
 
-The first quote from the US scores much lower in terms of sentiment than the latter. 
+The first quote from the US scores much lower in terms of sentiment than the latter. This is in line with our subjective perception of the quotes. 
 
-Clearly Europeans find themselves higher ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change. This could have many explanations, but we have found something interesting that could also have its impact : average quote length. Indeed, US quotes tend to be shorter and some positive correlation can be oserved between the complexity of quotes and their length.
+Clearly Europeans find themselves higher ranked in terms of complexity of language as well as in terms of mean sentiment when it comes to talking about climate change.
+Let's not jump to conclusions what this has to say about the difference between the US and Europe.
+<br>
 
-{% include plots/europe_us_quote_length.html %}
-
-Let's not jump to conclusions what this has to say about the difference between the US and Europe. We do see however that the public debate on climate change tends to be more complex and more positive than in the US. 
+So Greta now faces an entirely different bunch of speakers, who are much more negative and less complex in the way they speak about climate change. 
+Also, suddenly there seem to be only two big players in the politics game. Greta now has to find out how the two major parties in the US behave. 
 
 ### The war of the home parties
-Sorry to bring to you this way, but it is no breaking news the two main parties in the US (Democrats and Republicans) are two political opposites fighting against each other. It has been this way for ages and we are still far from a change. Enough blah blah, a picture is worth a thousand words, how do they reaaally compare when it comes down to climate change ?
+
+It's no big news that the two main parties in the US (Democrats and Republicans) are two political opposites fighting against each other. It has been this way for ages and we are still far from a change. How do they compare when it comes to the topic of climate change ?
 
 {% include plots/republican_democratic_sentiment.html %}
 
-The mean sentiment linked to the Democrats is on average higher than the one linked to the Republicans. We cannot say we are surprised, as climate change was not really a top priority of Donald Trump's program since 2017. As we all remember, he withdrew from the Paris climate accord on 1st June 2017, we believe that made it quite clear. 😞
+The mean sentiment linked to the Democrats is on average higher than the one linked to the Republicans. This isn't a big surprise, as climate change was not really a top priority of Donald Trump's program since 2017. As we all remember, he withdrew from the Paris climate accord on 1st June 2017, we believe that made it quite clear. 😞
+<br>
+Let's look at the end boss of the final level of Greta's journey.
 
-### This one looks like a boxing match final round : Greta vs Trump
+### Greta vs Trump
+
 Now that we have some context, we can finally reach the pinnacle of comparisons, i.e. the most opposite political figures, i.e. the MVPs. Ladies and gentlemen, please welcome Greta Thunberg and Donald Trump :
 
 <div style="margin-right: 50%; transform: translateX(-50%);">{% include plots/greta_vs_trump.html %}</div>
 
+This is surprising: There isn't such a big difference in complexity and sentiment for the two speakers.
+<br>
+Even though the republicans seem to have a lower language complexity score on average, Trump seems to be higher on that scale. This is surprising, as Trump usually doesn't really shine because of his well thought through statements. 
+The fact that Greta's language complexity is so low could be explained by the fact that english is not her mother tongue and also a  matter of age.
+<br>
+These results become interesting, when we look at the sentiment score. 
+Greta starts off very positively in 2018 and endures a severe fall in only a few months to join Trump's levels and remain there until 2020. This phenomena could be due to the fact that Greta appeared as a light in a dim world, by bringing to the table the topic of climate change. 
+We believe the sentiment of her quotes dropped because of the fact that she quickly started bringing forward the consequences of climate change and to insist on how hopeless the current politics was. So, how could you link a positive sentiment with hopeless thoughts you wonder ? Well, clearly it is impossible.
 
-These results came as a bit of a surprise for us. First : language complexity on climate change topics. Even though the republicans seem to have a lower language complexity score, Trump seems to be higher on that scale (still lower than Europe though, don't worry). The fact that Greta's language complexity comes at a lower rank could come down to the fact that english is not her mother tongue (which is not the case for Trump) and simply a matter of age. So far, so good, no big statements made. These results become interesting, when we look at the sentiment score. Greta starts off great (no puns intended, we swear) in 2018 and endures a severe fall in only a few months to join Trump's levels and remain there until 2020. This phenomena could be due to the fact that Greta appeared as a light in a dim world, by bringing to the table the topic of climate change. We believe the sentiment linked to her quotes dropped because of the fact that she quickly started bringing forward the consequences of climate change and to insist on how hopeless she was for the future. So, how could you link a positive sentiment with hopeless thoughts you wonder ? Well, clearly it is impossible. 🤷🏻
-
-## Are we not forgetting something here? Duh, Climate Change! 🔥 
+## Are we not forgetting something here? Duh, Climate Change! 
 
 Greta was of course a tour de force but what else might have had an impact on the public climate change debate?
 
 # Natural disaster
 
 Have you ever heard of Imelda? 
+<br>
 She was a tropical strom that hit the US in September of 2019. She caused a lot of flooding in Texas and hence also damage to property. 
 You can see this damage in the plot below. It also shows the sum of the sentiment scores of all climate quotes. 
 This way we can show how many quotes there were on climate change but also how high they scored in terms of sentiment. 
@@ -127,17 +140,17 @@ This way we can show how many quotes there were on climate change but also how h
 
 It seems like natural disasters have an impact on the climate change debate. This doesn't come as a great (greta) surprise, but how much the curve of sum of sentiment scores follows the damage to property is still impressive. 
 The first peak in damage to property was the tropical storm Imelda, whereas the second even higher peak in November 2019 was thunderstorms in Texas causing a lot of damage. 
-
+<br>
 We believe that these natural disasters cause the public debate about climate change to heat up again. Politicians, who are the most quoted group in the dataset, are quoted on this subject a lot when an extreme weather event has happened. But why would the sentiment score sum give us any indication about the public debate?
-
+<br>
 Let's see how different example quotes score in terms of sentiment: 
 
 > *Climate change is real* sentiment: Positive, 0.9976
-
+<br>
 > *Climate change is an urgent matter* sentiment: Positive, 0.9773
-
+<br>
 > *It's time to act on climate change* sentiment: Positive, 0.9962
-
+<br>
 We can see from these few example quotes that even though they convey a message of urgency, they still score quite positive. 
 
 An example quote from October 2019 from the US shows the same thing: 
@@ -146,7 +159,13 @@ An example quote from October 2019 from the US shows the same thing:
 
 Even though the speaker is speaking about the recent events and the urgency to act, the overall sentiment is positive. 
 
+# Bringing it home
 
+We embarked on a journey with Greta, to find out what she is confronted with being one of the leading speakers on the climate change topic. We sailed across the big pond to discover a new world, and found that speakers over there are even more negative and less complex than in Europe. 
+<br>
+We compared Trump to Greta and found that in terms of complexity and sentiment, they are not that far from each other as we might have expected. Furthermore, we found that the overall demography of speakers hasn't changed by a lot since Greta has been taking part in the public debate. 
+<br> 
+Most interestingly, we found that the quotes on climate change are likely to be linked with the weather events. 
 
 # Testing plots
 p.s. : Climate change was quoted 57 times in this article. Do you believe us ?
