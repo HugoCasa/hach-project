@@ -181,14 +181,15 @@ Ah, it seems like when there is a lot of damage to property, Greta's positive qu
 
 # Bringing it home
 
-We embarked on a climate change journey in a mission to understand the context of debate and how it evolved around the topic for the past years. 
-More specifically, we followed Greta’s path as she has been one of the leading speakers on the topic of climate change since the beginning of 2019. 
+We embarked on a climate change journey in a mission to understand the context of debate and how it evolved around the topic for the past years. More specifically, we followed Greta’s path as she has been one of the leading speakers on the topic of climate change since the beginning of 2019 and tried to identify her impact in the situation.
 <br>
-We have discovered she arrived to a debate dominated by old men and that she might have ignited a spark of revolution that could've changed the discussion around climate change. 
+We have discovered she arrived to a debate dominated by old men and initially believed she might have ignited a spark of revolution that could’ve changed the discussion around climate change on a global scale.
 <br>
-We then sailed with Greta over the big pond to investigate how the US compare to Europe in terms of language complexity and sentiment.
-We found that in Europe the discussion is more complex and on average more positive than in the US. We tried pushing the comparison further by focusing on someone at the other end of the political spectrum, namely Donald Trump.  We found that the quotes of these two speakers don't differ too much in terms of sentiment and complexity.
+We then sailed with Greta over the big pond to investigate how the US compare to Europe in terms of language complexity and sentiment on the topic of climate change and found that in Europe the discussion is often linked with more complexity and on average with more positivity than in the US. We tried pushing the comparison further by focusing on someone at the other end of the political spectrum, namely Donald Trump. We found that the quotes of these two speakers don’t differ too much in terms of sentiment and complexity regarding climate change.
 <br>
-Additionally, we performed an analysis on the correlation of extreme weather events in the US with change in sentiment over the years and we found something interesting: there is a correlation between weather events and the weighted sentiment sum of all climate quotes.
+Finally, we tried to turn the problem upside down and look for other potential game-changers, so we looked into extreme weather events in the US. We performed an analysis on the correlation of extreme weather events with change in sentiment over the years and obtained an interesting result: there is a correlation between weather events and the weighted sentiment sum of all climate quotes.
 <br>
-We saw that natural weather events have a large impact on the climate change debate, and that Greta hasn't fundamentally shifted the demography of speakers in recent years.
+
+It's impossible to think about the climate change debate these days without thinking about Greta Thunberg. Even though she didn't fundamentally change the demography of who is being quoted on climate change, she became the top speaker on the topic in a matter of months. Her impact on the debate reaches further than just the Quotebank dataset. 
+<br>
+We found that what might have an actual longer lasting impact on the climate change debate, is the climate itself. We saw how the natural disasters and the damage to property caused a peak in the weighted sentiment score, as there was an increase in urgency about the topic. 
