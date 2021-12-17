@@ -15,14 +15,16 @@ We will analyze the two years before Greta took off as a person of public intere
 # Let us embark on the Gretadaventure
 Let's start with some context on the debate before like who was being quoted on climate change in the years b.G and if anything has changed with Greta? 
 
+
 ### Who is speaking about climate change?
 We found that Greta doesn't belong to the typical speaker quoted on climate in the Quotebank dataset. She's a young woman, not a politician and from a country with a rather small population in Europe. 
 <br>
+
 Let start by taking a look at the distribution of the gender of the quoted speakers over the years. 
 
 {% include plots/gender_piecharts.html %}
 
-We can only observe a small increase in the percentage of women quoted throughout the years. It remains at roughly 20% which is far from being representative of the population. Other genders were also present in the dataset but their numbers were irrelevant compared to the two dominating categories and were therefore not visible on the graphs which shows again underrepresentation of some groups of people in the quoted speakers.  
+We can only observe a small increase in the percentage of women quoted throughout the years. It remains at roughly 20% which is far from being representative of the population. Other genders were also present in the dataset but their numbers were irrelevant compared to the two dominating categories and were therefore not visible on the graphs which shows again underrepresentation of some groups of people in the quoted speakers. 
 
 ### A topic for old men?
 
@@ -31,11 +33,16 @@ We can only observe a small increase in the percentage of women quoted throughou
 Ah, we see here that indeed the majority of speakers tend to be older rather than younger... 
 <br>
 The sample of population speaking about climate change in 2018 is rather old with a mean age of 56 years. The majority of speakers in the dataset are politicians and it's biased towards english speaking news, so this doesn't come as a big surprise.
+
+> The years before Greta (b.G): The years before Greta are characterized by a lot of old men speaking about climate change. We count 2017 and 2018 as before Greta, as she started to take off as a public speaker by the end of 2018 only. 
+
 <br>
 The fact that Greta, 16 years old, is being quoted about climate change is a game changer, as she stands out from the typical population in this context.
 We wonder if this change will persist, or if she is just an exception that proves the rule. 
 <br>
 After some background checking, we found that due to some inconsistencies in the wikidata every speaker without any entry for age is attributed an age of 21 years. This explains the peak of 21 year olds being quoted on climate change.
+
+> The years after Greta (a.G.): We hoped to see some change in the years after Greta (2019 and 2020) in terms of distribution of age and gender of the speakers.
 
 ### How many times is Greta actually quoted ?
 
