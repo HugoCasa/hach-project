@@ -156,11 +156,11 @@ We believe that these natural disasters cause the public debate about climate ch
 
 >Let's see how different example quotes score in terms of sentiment: 
 >
->> *Climate change is real* sentiment: Positive, 0.9976
+>> * "Climate change is real"*, sentiment: Positive, 0.9976
 >> 
->> *Climate change is an urgent matter* sentiment: Positive, 0.9773
+>> *"Climate change is an urgent matter"*, sentiment: Positive, 0.9773
 >> 
->> *It's time to act on climate change* sentiment: Positive, 0.9962
+>> *"It's time to act on climate change"*, sentiment: Positive, 0.9962
 >
 >We can see from these few example quotes that even though they convey a message of urgency, they still score quite positive. 
 
@@ -178,7 +178,9 @@ We compared Trump to Greta and found that in terms of complexity and sentiment, 
 <br> 
 Most interestingly, we found that the quotes on climate change are likely to be linked with the weather events. 
 
-# Testing plots
+
+
+
 p.s. : Climate change was quoted 57 times in this article. Do you believe us ?
 <br>
 <br>
